@@ -12,5 +12,11 @@ public class UpdatingVariables {
         salary = salary + (30*2) - 45;
         System.out.println("Salario más horas extra menos comida: " + salary);
 
+        //Actualizando cadenas de texto
+        String employeeName = "Camilo Galvis";
+        employeeName = employeeName + " Cuéllar Calderon Salamanca Romero Díaz Muñoz Camelo García Novoa";
+        System.out.println("Nombre completo sin primer nombre: " + employeeName);
+        employeeName = "Juan " + employeeName;
+        System.out.println("Nombre final y completo con el primer nombre: " + employeeName);
     }
 }
