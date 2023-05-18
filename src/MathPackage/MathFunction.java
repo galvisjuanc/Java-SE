@@ -28,6 +28,14 @@ public class MathFunction {
         return ((4 * Math.PI * Math.pow(3,3)) / 3);
     }
 
+    /**
+     * Descripción general de nuestra función.
+     *
+     * @param quantity Descripción del parámetro quantity.
+     * @param currency Descripción del parámetro currency (MXN o COP).
+     * @return Descripción del valor que devolvemos en esta función.
+     * */
+
     public static double convertToDollar(double quantity, String currency){
         switch (currency) {
             case "MXN" -> quantity = quantity * 0.052;
