@@ -3,6 +3,9 @@ package MedicalAppointments.ui;
 import java.util.Scanner;
 
 public class UIMenu {
+
+    public static final String[] MONTHS = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+            "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
     public static void showMenu() {
         int response = 0;
         do {
@@ -42,7 +45,12 @@ public class UIMenu {
             response = Integer.valueOf(sc.nextLine());
 
             switch (response){
-                case 1 -> System.out.println("The appointment was booked");
+                case 1 -> {
+                    System.out.println("The appointment was booked");
+                    for (String month: MONTHS) {
+                        System.out.println(month);
+                    }
+                }
                 case 2 -> System.out.println("Here you have your appointments");
                 case 0 -> showMenu();
                 default -> System.out.println("Wrong choice. Try again!");
