@@ -1,5 +1,7 @@
 package examen;
 
+import java.util.HashSet;
+
 public class examen {
     public static void main(String[] args) {
         int i = 7;
@@ -15,5 +17,13 @@ public class examen {
         System.out.println((b >= a) || (d == f));
 
         System.out.println('j' + 'a' + 'v' + 'a');
+
+        HashSet<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(4);
+        set.add(4);
+        set.add(2);
+        set.add(null);
+        System.out.println(set);
     }
 }
