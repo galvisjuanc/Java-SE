@@ -1,12 +1,21 @@
 package MedicalAppointments;
 
 public enum Day {
-        /*SUNDAY("Domingo", "Dimanche", "Domingo"),
-        MONDAY("Lunes", "Lundi", "Segunda-feira"),
-        TUESDAY("Martes", "Mardi", "Terca-feira"),
-        WEDNESDAY("Miercoles", "Mercredi", "Quarta-feira"),
-        THURSDAY("Jueves", "Jeudi", "Quinta-feira"),
-        FRIDAY("Viernes", "Vendredi", "Sexta-feira"),
-        SATURDAY("Sabado", "Samedi", "Sabado");*/
-        SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+        SUNDAY("Domingo"),
+        MONDAY("Lunes"),
+        TUESDAY("Martes"),
+        WEDNESDAY("Miercoles"),
+        THURSDAY("Jueves"),
+        FRIDAY("Viernes"),
+        SATURDAY("Sabado");
+
+        private String spanish;
+
+        private Day(String s) {
+                spanish = s;
+        }
+
+        String getSpanish() {
+                return spanish;
+        }
 }
