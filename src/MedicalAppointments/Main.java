@@ -38,6 +38,14 @@ public class Main {
         System.out.println(patient.getEmail());
 
         showMenu();*/
+        
+        Day day = Day.TUESDAY;
+        switch (day) {
+            case MONDAY -> System.out.println("Mondays are good");
+            case FRIDAY -> System.out.println("Fridays are so nice");
+            case SATURDAY, SUNDAY -> System.out.println("It's weeekend");
+            default -> System.out.println("Midweek are so-so");
+        }
     }
 
 
