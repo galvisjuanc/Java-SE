@@ -3,57 +3,18 @@ package MedicalAppointments;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor {
-    static int id = 0;
-    private String name;
+public class Doctor extends User{
 
-    private String email;
     private String speciality;
 
-
-    Doctor() {
-        System.out.println("Construyendo el Objeto Doctor");
-    }
-
-    Doctor(String name, String speciality) {
+    Doctor(String name, String email) {
+        super(name, email);
         System.out.println("Name's Doctor: " + name);
-        id++;
-        this.name = name;
         this.speciality = speciality;
     }
 
     //Comportamientos
-    public void showName() {
-        System.out.println("Mostrando el nombre: " + name);
-    }
 
-    public void showId() {
-        System.out.println("ID Doctor: " + id);
-    }
-
-    public static int getId() {
-        return id;
-    }
-
-    public static void setId(int id) {
-        Doctor.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
     public String getSpeciality() {
         return speciality;
