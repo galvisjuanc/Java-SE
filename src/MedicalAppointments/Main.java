@@ -6,7 +6,7 @@ import static MedicalAppointments.ui.UIMenu.showMenu;
 
 public class Main {
     public static void main(String[] args) {
-        Doctor myDoctor = new Doctor("Juan Galvis", "Ginecología");
+        Doctor myDoctor = new Doctor("Juan Galvis", "galvisjuanc@gmail.com");
         myDoctor.addAvailableAppointment(new Date(), "10 am");
         myDoctor.addAvailableAppointment(new Date(), "12 am");
         myDoctor.addAvailableAppointment(new Date(), "2 pm");
@@ -17,6 +17,9 @@ public class Main {
         for (Doctor.AvailableAppointment availableAppointment: myDoctor.getAvailableAppointments()) {
             System.out.println(availableAppointment.getDate() + " " + availableAppointment.getTime());
         }
+
+        Patient patient0 = new Patient("Rafael Lima", "lima@hbp.org");
+        System.out.println(patient0);
 
         /* myDoctor.showName();
         myDoctor.showId();
