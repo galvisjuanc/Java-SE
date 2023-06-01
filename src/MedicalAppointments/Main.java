@@ -1,8 +1,9 @@
 package MedicalAppointments;
 
-import java.util.Date;
+import MedicalAppointments.model.Doctor;
+import MedicalAppointments.model.Patient;
 
-import static MedicalAppointments.ui.UIMenu.showMenu;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
