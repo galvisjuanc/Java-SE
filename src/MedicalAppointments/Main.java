@@ -1,6 +1,7 @@
 package MedicalAppointments;
 
 import MedicalAppointments.model.Doctor;
+import MedicalAppointments.model.ISchedulable;
 import MedicalAppointments.model.Patient;
 import MedicalAppointments.model.User;
 
@@ -31,6 +32,26 @@ public class Main {
 
         User userPatient = new Patient("Melva Fernandez", "melvavisco@hotmail.com");
         userPatient.showDataUser();
+
+        User userAnonym = new User("Alejandro Canario", "canaryale@yahoo.es") {
+            @Override
+            public void showDataUser() {
+                System.out.println("\nName : " + this.getName());
+                System.out.println("Departamento: Geriatría");
+            }
+        };
+
+        userAnonym.showDataUser();
+
+        ISchedulable iSchedulable = new ISchedulable() {
+            @Override
+            public void schedule(Date date, String time) {
+                System.out.println("Fecha: " + date);
+                System.out.println("Tiempo: " + time);
+            }
+        };
+
+        iSchedulable.schedule(new Date(), "19:00 pm");
 
         Day day = Day.TUESDAY;
         switch (day) {
