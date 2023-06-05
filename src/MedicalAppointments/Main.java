@@ -2,6 +2,7 @@ package MedicalAppointments;
 
 import MedicalAppointments.model.Doctor;
 import MedicalAppointments.model.Patient;
+import MedicalAppointments.model.User;
 
 import java.util.Date;
 
@@ -23,27 +24,13 @@ public class Main {
         Patient patient0 = new Patient("Rafael Lima", "lima@hbp.org");
         System.out.println("");
         System.out.println(patient0);
+        System.out.println("");
 
-        /* myDoctor.showName();
-        myDoctor.showId();
-        System.out.println(Doctor.id);
+        User userM = new Doctor("María del Carmen Cuéllar", "mcuellar193@gmail.com");
+        userM.showDataUser();
 
-        Doctor.id++;
-
-        Doctor myDoctor1 = new Doctor("Dougleidy Martinez", "Cardiologa");
-
-        Doctor myDoctorAnn = new Doctor();
-        myDoctorAnn.showId();
-        System.out.println(Doctor.id);
-
-        System.out.println("\nName of the new doctor: " + myDoctor1.getName());
-        System.out.println("\nSpeciality: " + myDoctor1.getSpeciality());
-
-        Patient patient = new Patient("Patricio", "canariomalvado@gmail.com");
-        System.out.println(patient.getName());
-        System.out.println(patient.getEmail());
-
-        showMenu();*/
+        User userPatient = new Patient("Melva Fernandez", "melvavisco@hotmail.com");
+        userPatient.showDataUser();
 
         Day day = Day.TUESDAY;
         switch (day) {
