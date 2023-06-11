@@ -53,11 +53,13 @@ public class UIMenu {
         doctors.add(new Doctor("Alejandro Martínez", "alejandro@mail.com"));
         doctors.add(new Doctor("Karen Sosa", "karensosa@mail.com"));
         doctors.add(new Doctor("Rocio Gomez", "rocio@mail.com"));
+        doctors.add(new Doctor("Juan Manuel Galvis", "jmanuel@mail.com"));
 
         ArrayList<Patient> patients = new ArrayList<>();
         patients.add(new Patient("Anahí Salgado", "anahi@mail.com"));
         patients.add(new Patient("Roberto Bolaños", "bolanios@mail.com"));
         patients.add(new Patient("Carlos Sanchez", "csanchez@mail.com"));
+        patients.add(new Patient("Geraldine Sierra", "gsierradine@mail.com"));
 
         boolean emailCorrect = false;
         do{
