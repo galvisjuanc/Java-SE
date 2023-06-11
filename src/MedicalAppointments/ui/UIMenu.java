@@ -94,7 +94,7 @@ public class UIMenu {
         int response = 0;
         do {
             System.out.println("\n\n");
-            System.out.println("Patient Menu");
+            System.out.println("Patient Menu - New Hospital");
             System.out.println("1. Book an appointment");
             System.out.println("2. My appointments");
             System.out.println("0. Return");
@@ -111,7 +111,7 @@ public class UIMenu {
                         System.out.println(month);
                     }
                 }
-                case 2 -> System.out.println("Here you have your appointments");
+                case 2 -> System.out.println("Here you have your appointments. You're welcome!");
                 case 0 -> showMenu();
                 default -> System.out.println("Wrong choice. Try again!");
             }
