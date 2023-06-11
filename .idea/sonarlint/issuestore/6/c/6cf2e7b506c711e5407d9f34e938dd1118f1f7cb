@@ -1,0 +1,10 @@
+
+_
+java:S2184"BCast one of the operands of this division operation to a "double".(Ê¾8²ç¬¦‚1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æÔÌº8²ç¬¦‚1
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(æÈ¬8¸ç¬¦‚1
+U	java:S106"9Replace this use of System.out or System.err by a logger.( ´¡³8¸ç¬¦‚1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(î°ç‡8¸ç¬¦‚1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ò˜çüÿÿÿÿ8¸ç¬¦‚1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(€À ™8¹ç¬¦‚1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ìíÉïøÿÿÿÿ8¹ç¬¦‚1

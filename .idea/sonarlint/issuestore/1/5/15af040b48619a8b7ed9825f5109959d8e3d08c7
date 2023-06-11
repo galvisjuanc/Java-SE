@@ -1,0 +1,28 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ý“ô©8¹šÞ£ƒ1
+]
+java:S1854";Remove this useless assignment to local variable "numbers".(°Î€Îüÿÿÿÿ8ÊšÞ£ƒ1
+U
+java:S1854"8Remove this useless assignment to local variable "days".(ÿÎ’“8ÊšÞ£ƒ1
+G
+java:S1197"*Move the array designators [] to the type.(ÿÎ’“8ËšÞ£ƒ1
+F
+java:S1481")Remove this unused "days" local variable.(ÿÎ’“8ËšÞ£ƒ1
+N
+java:S1481",Remove this unused "numbers" local variable.(°Î€Îüÿÿÿÿ8ËšÞ£ƒ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Î£Û³øÿÿÿÿ8ËšÞ£ƒ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(øÕÌž8ËšÞ£ƒ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÏŠÆøÿÿÿÿ8ÌšÞ£ƒ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ï¶º‘8ÌšÞ£ƒ1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(Ú‘¸ò8ÌšÞ£ƒ1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(Üæô8ÌšÞ£ƒ1
+U	java:S106."9Replace this use of System.out or System.err by a logger.(™ÃÞú8ÌšÞ£ƒ1
+T	java:S106/"9Replace this use of System.out or System.err by a logger.(ØºäV8ÌšÞ£ƒ1
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(ÉøÆÐýÿÿÿÿ8ÌšÞ£ƒ1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(¯üÙÒùÿÿÿÿ8ÌšÞ£ƒ1
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(ÉèÝÃ8ÍšÞ£ƒ1
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(Ÿã¨„üÿÿÿÿ8ÍšÞ£ƒ1
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Õø¥–8ÍšÞ£ƒ1
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(¶žùÍ8ÎšÞ£ƒ1
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(íƒ…¿þÿÿÿÿ8°íÞ£ƒ1
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(Óâ‚Êÿÿÿÿÿ8¬×ç£ƒ1
