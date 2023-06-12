@@ -5,6 +5,12 @@ import java.util.Date;
 public class AppointmentDoctor implements ISchedulable {
     private int id;
     private Patient patient;
+
+    public AppointmentDoctor(Patient patient, Doctor doctor) {
+        this.patient = patient;
+        this.doctor = doctor;
+    }
+
     private Doctor doctor;
     private Date date;
     private String time;
@@ -42,7 +48,7 @@ public class AppointmentDoctor implements ISchedulable {
     }
 
     public String getTime() {
-        return time;
+        return time + " hrs.";
     }
 
     public void setTime(String time) {
@@ -51,6 +57,7 @@ public class AppointmentDoctor implements ISchedulable {
 
     @Override
     public void schedule(Date date, String time) {
-
+        this.date = date;
+        this.time = time;
     }
 }

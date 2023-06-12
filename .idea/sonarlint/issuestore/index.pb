@@ -41,5 +41,3 @@ _
 /src/MedicalAppointments/model/ISchedulable.java,5\8\58c33594d1d0b78f021564ffb68909257756c9a7
 c
 3src/MedicalAppointments/model/AppointmentNurse.java,f\b\fbed16b0ebb393d1ca1a0feedd0309c527ab0e78
-d
-4src/MedicalAppointments/model/AppointmentDoctor.java,0\9\09ad8e4ba3e6de8dd348b7e41aa21e3193d3b5cf
