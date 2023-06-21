@@ -22,7 +22,7 @@ Doing the steps mentioned lines above, you will see all you did on IntelliJ in G
 Remember to use git fetch to download any remote change to your project.
 
 …or create a new repository on the command line
-echo "# SpringBoot_API_RestService" >> README.md
+echo "# Java SE" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
