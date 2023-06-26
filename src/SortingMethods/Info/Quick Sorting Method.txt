@@ -70,6 +70,4 @@ Finally we place pivot at correct position by swapping
 arr[i+1] and arr[high] (or pivot)
 arr[] = {10, 30, 40, 50, 70, 90, 80} // 80 and 70 Swapped
 
-Now 70 is at its correct place. All elements smaller than
-70 are before it and all elements greater than 70 are after
-it.
+Now 70 is at its correct place. All elements smaller than 70 are before it and all elements greater than 70 are after it.
