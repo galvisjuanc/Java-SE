@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 /**
  * @author galvi
- * Método de ordenamiento por inserción: Si numeroIzquierda > numeroActual --> cambiamos los números
+ * Método de ordenamiento por inserción:
+ * Si numeroIzquierda > numeroActual --> cambiamos los números
  *
  * 4 5 2 1 3 -- 4 5 2 1 3 -- 4 5 2 1 3 -- 4 2 5 1 3 -- 2 4 5 1 3
  * |              |              |          |          |
