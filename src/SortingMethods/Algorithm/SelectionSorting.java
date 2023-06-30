@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 /**
  * @author galvi
- * Método de ordenamiento por selección: Buscar el número menor del arreglo e intercambiarlo por el que esté en la primera posición
- * Luego se busca el menor de los otros y así sucesivamente
+ * Método de ordenamiento por selección: Buscar el número menor del arreglo e intercambiarlo
+ * por el que esté en la primera posición. Luego se busca el menor de los otros y así sucesivamente
  */
 public class SelectionSorting {
     public static void main(String[] args) {
