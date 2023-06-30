@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 import java.util.Scanner;
 /**
  * @author galvi
- * Método burbuja:
+ * Método burbuja: Bubble Method
  * Si numeroActual > numeroSiguiente --> cambiamos los números
  *
  * 4 5 2 1 3 -- 4 2 5 1 3 -- 4 2 1 5 3 -- 4 2 1 3 5
