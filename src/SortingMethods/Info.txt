@@ -8,3 +8,18 @@ Ordenamiento rápido (Quick Sort)
 Ordenamiento shell (Shell Sort)
 Ordenamiento por Mezclas (Merge Sort)
 Métodos Iterativos: Usa ciclos y sentencias que hacen que el vector pueda ser ordenado.
+
+Burbuja (Bubble Sort)
+Inserción (Insertion Sort)
+Selección (Selection Sort)
+Shell Sort
+
+Métodos Recursivos: Son más complejos y requieren de mayor atención y conocimiento para ser entendidos.
+Son rápidos y efectivos porque usan la técnica "Divide y Vencerás", que consiste en dividir un problema grande en
+varios pequeños para que sea más fácil resolverlos. Mediante llamadas recursivas a sí mismos, es posible que el tiempo
+de ejecución y de ordenación sea más óptimo. Importante utilizar métodos fuera del main para realizar las funciones y
+dividir también el código.
+
+Por Mezclas (Merge Sort)
+Rápido (Quick Sort)
+Página: https://github.com/TheAlgorithms/Java
