@@ -1,0 +1,10 @@
+Sorting Methods
+
+Método Burbuja (Bubble Sort)
+Ordenamiento por Inserción (Insertion Sort)
+Ordenamiento por Selección (Selection Sort)
+Ordenamiento por montículos (Heap Sort)
+Ordenamiento rápido (Quick Sort)
+Ordenamiento shell (Shell Sort)
+Ordenamiento por Mezclas (Merge Sort)
+Métodos Iterativos: Usa ciclos y sentencias que hacen que el vector pueda ser ordenado.
