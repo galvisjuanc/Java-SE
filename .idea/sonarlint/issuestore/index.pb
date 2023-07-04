@@ -97,3 +97,15 @@ S
 Git_Creation.txt,b\1\b13000481c8d063881063c6e00f8f1fc5abd19cc
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+W
+'src/SortingMethods/Info/Heap Method.txt,6\c\6c846df8661884152180a3f6356614c9118340d7
+Y
+)src/SortingMethods/Info/Bubble Method.txt,a\8\a8855ddd9d5410a7b9ede906fb5294d83bc9aae4
+Z
+*src/SortingMethods/Info/Sorting Method.txt,0\6\06e28cf5aa2e8c135813907410aea4072ba6d2ff
+`
+0src/SortingMethods/Info/Merge Sorting Method.txt,f\e\fe96d1c01f6d769c032ab34b5fa92af4458cb5a1
+`
+0src/SortingMethods/Info/Quick Sorting Method.txt,1\2\12cab443e3800ec0b3df90a9c688a42bc8e635a3
+\
+,src/SortingMethods/Info/Insertion Method.txt,0\a\0aade74d066b65da46ecc608245c398de0fbb018
