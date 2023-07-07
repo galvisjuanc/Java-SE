@@ -10,7 +10,8 @@ Steps to create a local repository:
 1. Type git init in the IntelliJ Terminal
 2. Type git add * (This will add all the files created before)
 3. Type git commit -m "Initial Commit"
-4. Type git branch -M main (This will change the name of the branch. Git creates a Master branch but now, this needs to be changed to Main).
+4. Type git branch -M main (This will change the name of the branch. Git creates a Master branch but now,
+this needs to be changed to Main).
 5. Type git status to verify if there is something else we need to add. If that's so, type git add *
 6. Type git commit -m "add new file"
 7. Type git remote add origin https://github.com/galvisjuanc/SortingMethods.git
