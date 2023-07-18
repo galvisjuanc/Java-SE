@@ -91,16 +91,10 @@ J
 src/Arrays/Example_15.java,d\5\d5b0c36d54ce8b79652867333b401d85be3e0f38
 J
 src/Arrays/Example_16.java,1\3\13faf86985a88a23d760312a2e7016a1a515287b
-S
-#src/SortingMethods/Git Creation.txt,b\2\b267540170e12845f17b6799f5b2a4857939c475
 @
 Git_Creation.txt,b\1\b13000481c8d063881063c6e00f8f1fc5abd19cc
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-W
-'src/SortingMethods/Info/Heap Method.txt,6\c\6c846df8661884152180a3f6356614c9118340d7
-Y
-)src/SortingMethods/Info/Bubble Method.txt,a\8\a8855ddd9d5410a7b9ede906fb5294d83bc9aae4
 Z
 *src/SortingMethods/Info/Sorting Method.txt,0\6\06e28cf5aa2e8c135813907410aea4072ba6d2ff
 `
@@ -109,3 +103,43 @@ Z
 0src/SortingMethods/Info/Quick Sorting Method.txt,1\2\12cab443e3800ec0b3df90a9c688a42bc8e635a3
 \
 ,src/SortingMethods/Info/Insertion Method.txt,0\a\0aade74d066b65da46ecc608245c398de0fbb018
+b
+2src/SortingMethods/Algorithm/InsertionSorting.java,8\6\8678f37ba62d354326e8fda6aa1575fd0b5b5874
+`
+0src/SortingMethods/Definition/SortAlgorithm.java,a\3\a3eaada56fb1ed8c091302671040066c75686cf6
+[
++src/SortingMethods/Algorithm/SortUtils.java,9\4\94da819c48ed5f2574aa6bd85ec69ec0ede5ae90
+_
+/src/SortingMethods/Algorithm/BubbleSorting.java,3\8\3884700f5913825856f5b81660bc76b4b27e8f75
+b
+2src/SortingMethods/Algorithm/SelectionSorting.java,3\c\3c542baa9530c28c2e37ea6659670fb8256a9846
+W
+'src/SortingMethods/Info/Heap Method.txt,6\c\6c846df8661884152180a3f6356614c9118340d7
+K
+src/SortingMethods/Info.txt,5\4\54d7844e37152de1665e2215bff03888f787e4b9
+]
+-src/SortingMethods/Algorithm/HeapSorting.java,8\6\8696941ee03447b0aa1845abd165d7d256cca865
+[
++src/SortingMethods/Algorithm/MergeSort.java,4\8\482135e162943dd18d506cae744b856068a0d7ef
+^
+.src/SortingMethods/Algorithm/MergeSorting.java,9\2\92c927dcbfa65aeb2b19a0b34b4dd27c1dcc51ba
+[
++src/SortingMethods/Algorithm/ShellSort.java,7\f\7f338fd9abd23a7a44ba2c0f2f7887d0914060b2
+^
+.src/SortingMethods/Algorithm/ShellSorting.java,1\4\145125926308ae15ebff969c909afbb2abda0976
+Y
+)src/SortingMethods/Info/Shell Sorting.txt,c\c\ccd5ab0b8cb69cd062ae59961f4bc96ff874805d
+S
+#src/SortingMethods/Git Creation.txt,b\2\b267540170e12845f17b6799f5b2a4857939c475
+Y
+)src/SortingMethods/Info/Bubble Method.txt,a\8\a8855ddd9d5410a7b9ede906fb5294d83bc9aae4
+[
++src/SortingMethods/Algorithm/QuickSort.java,9\5\95912da2ba7413d5969883fc5bb9c9d07b1018b0
+Z
+*src/SortingMethods/Algorithm/HeapSort.java,a\a\aaf02ec538aa3a10484db6326791e0b801a7a2c3
+^
+.src/SortingMethods/Algorithm/QuickSorting.java,3\6\36d4a55bd469e3d8e35b2905d127e0d20e2c61e6
+U
+%src/SearchingMethods/BinarySearch.txt,f\a\fa1b53d0e2275ab18cb1d65492ec6ba280cf63f5
+X
+(src/SearchingMethods/GitCreationFile.txt,d\9\d935c11f7b4d69be3eccae0c5ddb4099e96ca0f0
