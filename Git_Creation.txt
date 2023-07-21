@@ -1,4 +1,4 @@
-Steps to create an IntelliJ or VSC Project:
+Steps to create an IntelliJ or Visual Studio Code Project:
 
 1. Create a new project in IntelliJ or VSC
 2. Select the language (Java, Gradle, Maven, etc)
