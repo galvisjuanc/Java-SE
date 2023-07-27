@@ -9,3 +9,9 @@ Si quiero instanciar un objeto dentro de otro paquete, tengo que importar el paq
 
 Public permite que el atributo sea llamado en la instancia donde se llame, de cualquier paquete. Tener en cuenta que se
 debe importar el paquete para ver la información.
+
+Private restringe al atributo y causa que solo pueda ser llamado en la clase donde se crea. Aquí se necesita el encapsulamiento.
+
+
+ENCAPSULAMIENTO
+Oculta los atributos y métodos para que sean accedidos desde la misma clase. Para modificarlos, necesita Getters y Setters.
