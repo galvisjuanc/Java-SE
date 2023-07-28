@@ -29,8 +29,11 @@ como el polimorfismo o la agrupación de diferentes objetos.Java permite que un 
 Esto se llama upcasting. Upcasting se realiza automáticamente, mientras que el downcasting debe ser realizado manualmente por el programador,
 y voy a dar mi mejor esfuerzo para explicar por qué es así.
 
+
 La conversión ascendente y descendente NO son como lanzar primitivas de una a otra, y creo que eso es lo que causa mucha confusión cuando el programador comienza a
 aprender a fundir objetos.
 
 Polimorfismo: todos los métodos en Java son virtuales por defecto. Esto significa que cualquier método puede ser anulado cuando se usa en herencia, a menos que ese
 método se declare como final o estático.
+
+TODO: Investigate a little bit more about this.
