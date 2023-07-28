@@ -169,3 +169,23 @@ X
 ,src/SearchingMethods/InterpolationSearch.txt,c\4\c4fec820d16e9741e23a5f86b50d2a3fe3571444
 L
 src/POO/Data/GitCreation.txt,a\d\ad1170462d6898cedda1a9c713542f698e3e5f73
+`
+0src/SearchingMethods/Algorithm/LinearSearch.java,d\2\d2e2652ff675dabfe9341b27f1726ee28d8290fb
+N
+src/POO/Data/Conceptos POO.txt,f\e\fe93b0974cf8d9fb19c84ba13c7f0a5ffa09055b
+a
+1src/POO/Data/Concepto y Creación de Métodos.txt,f\a\fa87f664a8a4e8bf7746e3868c3310af22d50213
+W
+'src/POO/Data/Clases y Metodos Final.txt,2\4\24decded1e63a828a0303d1467be442094d4542a
+@
+src/POO/Info.txt,e\c\ec5384341fbb8d68fb231c3cffcf9b61022f3f76
+]
+-src/POO/Data/Clases y Métodos Abstractos.txt,4\e\4eec8b3e494127166b197e23efafea93d574beb1
+]
+-src/POO/Data/Creacion de Clases y Objetos.txt,1\6\1683b09ae7b8b22a21e729daa8c40be085083df8
+I
+src/POO/Data/Herencia.txt,6\f\6f45ad27ae67151be49fa36733dc311301435b8f
+R
+"src/POO/Data/Herencia Multiple.txt,b\0\b0654ab994041d1e260c0709d72cd3ff8f1170d6
+a
+1src/POO/Data/Miembros estáticos de una clase.txt,0\0\0019c4afc3f048a68d59059ddc4799225a2e5ad2
