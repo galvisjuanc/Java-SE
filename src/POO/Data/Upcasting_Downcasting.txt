@@ -37,3 +37,6 @@ Polimorfismo: todos los métodos en Java son virtuales por defecto. Esto signifi
 método se declare como final o estático.
 
 TODO: Investigate a little bit more about this.
+https://www.javatpoint.com/upcasting-and-downcasting-in-java
+Parent to a child is Downcasting.
+Child to a Parent is Upcasting.
