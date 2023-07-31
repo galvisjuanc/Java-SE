@@ -24,14 +24,14 @@ Alumno a = new Persona(); // Error
 Solo es posible en los casos en los que el objeto de la clase base realmente sea un objeto de la clase derivada. Estos casos se tendrán que indicar explícitamente
 con un casting (con una asignación explícita de la clase).
 
-La conversión ascendente y descendente son una parte importante de Java, que nos permite crear programas complicados con una sintaxis simple, y nos brinda grandes ventajas,
-como el polimorfismo o la agrupación de diferentes objetos.Java permite que un objeto de un tipo de subclase sea tratado como un objeto de cualquier tipo de superclase.
-Esto se llama upcasting. Upcasting se realiza automáticamente, mientras que el downcasting debe ser realizado manualmente por el programador,
-y voy a dar mi mejor esfuerzo para explicar por qué es así.
+La conversión ascendente y descendente son una parte importante de Java, que nos permite crear programas complicados con
+una sintaxis simple, y nos brinda grandes ventajas, como el polimorfismo o la agrupación de diferentes objetos.
+Java permite que un objeto de un tipo de subclase sea tratado como un objeto de cualquier tipo de superclase.
+Esto se llama upcasting. Upcasting se realiza automáticamente, mientras que el downcasting debe ser realizado manualmente
+por el programador, y voy a dar mi mejor esfuerzo para explicar por qué es así.
 
-
-La conversión ascendente y descendente NO son como lanzar primitivas de una a otra, y creo que eso es lo que causa mucha confusión cuando el programador comienza a
-aprender a fundir objetos.
+La conversión ascendente y descendente NO son como lanzar primitivas de una a otra, y creo que eso es lo que causa mucha
+confusión cuando el programador comienza a aprender a fundir objetos.
 
 Polimorfismo: todos los métodos en Java son virtuales por defecto. Esto significa que cualquier método puede ser anulado cuando se usa en herencia, a menos que ese
 método se declare como final o estático.
