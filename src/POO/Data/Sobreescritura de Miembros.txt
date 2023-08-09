@@ -11,7 +11,7 @@ public class Persona{
         System.out.println("Estoy cantando");
     }
 
-    public void cantar(String cancion){
+    public void cantar(String canciones){
         System.out.println("Estoy cantando la canción:"+cancion);
     }
 }
