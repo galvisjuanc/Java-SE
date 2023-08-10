@@ -1,0 +1,42 @@
+Busqueda de Interpolación
+
+es una variante modificada o más bien mejorada del algoritmo de búsqueda binaria. Este algoritmo trabaja en la posición
+de prueba del valor requerido para buscar, la búsqueda intenta acercarse al valor real en cada paso o hasta que se encuentra
+el elemento de búsqueda. Ahora, la búsqueda de interpolación requiere trabajos en matrices con condiciones:
+
+1. La matriz debe ser ordenada en orden ascendente.
+2. Los elementos de la matriz deben tener Distribución uniforme. En otras palabras, la diferencia entre dos elementos
+sucesivos (Arr[i] – Arr[i+1]) en la matriz para cada par deben ser iguales.
+
+Nota: La segunda condición no tiene por qué ser siempre verdadera. A veces, la matriz dada no se puede distribuir de manera
+justa. En ese caso, el índice de sondeo ayudará en la búsqueda. Veremos el ejemplo para tal caso. La primera condición
+tiene que ser necesariamente cierta.
+
+En la búsqueda binaria, solíamos obtener el índice de nuestro elemento de búsqueda dividiendo la matriz en dos mitades.
+Entonces, obtenemos el índice del elemento medio como medio = (bajo + alto) / 2. Si el índice dado por mid coincide con
+nuestra clave para buscar lo devolvemos, de lo contrario buscamos en la mitad izquierda o derecha de la matriz dependiendo
+del valor de mid.
+
+Del mismo modo, en la búsqueda de Interpolación obtenemos el índice / posición del elemento en función de una fórmula:
+* Índice = Bajo + (((Tecla – Arr[Low]) * (Alto – Bajo)) / Arr[High] -Arr[Low] ).
+
+Veamos cada término:
+
+Arr: Matriz ordenada.
+Bajo: índice del primer elemento en Array.
+Alto: índice del último elemento de la matriz.
+Clave: Valor a buscar.
+
+Nota: La fórmula nos ayuda a acercarnos a la clave real reduciendo el número de pasos.
+
+
+Algoritmo de búsqueda de interpolación
+
+1. Al principio, calculamos el índice utilizando la fórmula de posición de la sonda de interpolación.
+2. Luego, si el valor en el índice coincide con la clave que buscamos, simplemente devuelva el índice del elemento e
+imprima el valor en ese índice.
+3. Si el elemento en el índice no es igual a la clave, verificamos si la clave es menor que Arr[Index], calcule la posición
+de la sonda del subarreglo izquierdo asignando Alto = Índice – 1 y Low sigue siendo el mismo.
+4. Si la clave es mayor que Arr[Index], calculamos el índice para el subarreglo derecho asignando Bajo = Índice + 1 y
+lo alto sigue siendo el mismo.
+5. Repetimos estos pasos en un bucle hasta que la submatriz se reduce a cero o hasta que Bajo .

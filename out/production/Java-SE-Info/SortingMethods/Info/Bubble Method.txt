@@ -1,0 +1,13 @@
+Método Burbuja
+
+Es un sencillo algoritmo de ordenamiento. Funciona revisando cada elemento de la lista que va a ser ordenado con el
+siguiente, intercambiándolos de posición si están en el orden equivocado. Es necesario revisar varias veces toda la
+lista hasta que no se necesiten más intercambios, lo cuál significa que la lista está ordenada.
+
+Si numeroActual > numeroSiguiente --> cambiamos los números
+
+4 5 2 1 3 -- 4 2 5 1 3 -- 4 2 1 5 3 -- 4 2 1 3 5
+4 2 1 3 5 -- 2 4 1 3 5 -- 2 1 4 3 5 -- 2 1 3 4 5
+2 1 3 4 5 -- 1 2 3 4 5
+
+Se empieza a mover el número más grande hacia el final y luego se vuelve a revisar el orden y así sucesivamente.

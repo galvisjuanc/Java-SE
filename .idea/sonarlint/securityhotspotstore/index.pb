@@ -189,3 +189,23 @@ I
 src/POO/Data/Herencia.txt,6\f\6f45ad27ae67151be49fa36733dc311301435b8f
 R
 "src/POO/Data/Herencia Multiple.txt,b\0\b0654ab994041d1e260c0709d72cd3ff8f1170d6
+L
+src/POO/Data/Constructor.txt,8\c\8c019aec4a9015c9c16a6a7c019093b44ab286ec
+X
+(src/POO/Clases/ClasesObjetos1/Coche.java,3\b\3bf87e6ef414d3b242e2d4fb1d66e05fd3a3fb6f
+X
+(src/POO/Data/Modificadores de Acceso.txt,c\2\c2c5fdf7bed385008c54b88747b2659fa2fa8ebe
+V
+&src/POO/Data/Upcasting_Downcasting.txt,4\c\4cc62b32de39fe89f31491fbee56b1a9f4cb327f
+\
+,src/POO/Clases/ClasesObjetos2/Principal.java,1\5\15f04c1469122bc4fbece9034b2d5d8e993287bc
+d
+4src/POO/Data/Métodos - Parámetros y Argumentos.txt,d\1\d17b5385698f96fa22b7199a82ed575f826b77ea
+\
+,src/POO/Clases/ClasesObjetos2/Operacion.java,7\e\7e76c5eaecb3e3a47a4a962025ef1919e9facf49
+M
+src/POO/Data/Polimorfismo.txt,a\0\a0352c6080db53c22286373c3e3cf0155822fd65
+^
+.src/POO/Data/Métodos - Retorno de Valores.txt,5\c\5c6ac07523c6201afbc0efe1cc6f69399cc13a10
+[
++src/POO/Data/Sobreescritura de Miembros.txt,3\a\3a76eaf3c2490f675b521fb8f86e4860f2b12b5b

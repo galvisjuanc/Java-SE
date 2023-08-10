@@ -1,0 +1,17 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÄ¾àøÿÿÿÿ8ÂØ‘¡1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÄ¾àøÿÿÿÿ8ÂØ‘¡1
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÅºŒöúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©
+P
+java:S1659".Declare "contador_impares" on a separate line.(ÕÄ¾àøÿÿÿÿ8±Ù‘¡1
+L
+java:S1659%"*Declare "punteroimpar" on a separate line.(·±‹ùÿÿÿÿ8±Ù‘¡1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(º¦ÌŸ8ÁÙ‘¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿ºê‡øÿÿÿÿ8ÁÙ‘¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(·ì®³úÿÿÿÿ8ÁÙ‘¡1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(Ëúò8ÁÙ‘¡1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(­ğ©şşÿÿÿÿ8ÁÙ‘¡1
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(Ëúò8ÁÙ‘¡1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Èë¦¬øÿÿÿÿ8ÁÙ‘¡1
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(Ëúò8ÁÙ‘¡1

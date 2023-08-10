@@ -1,0 +1,16 @@
+
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Âñµü
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©
+H
+java:S1659&"&Declare "punterob" on a separate line.(¦Ñß…ùÿÿÿÿ8ä¨ìÄ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(®ÒÈ½8ä¨ìÄ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿ºê‡øÿÿÿÿ8ä¨ìÄ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹û¥‹8ä¨ìÄ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿ºê‡øÿÿÿÿ8ä¨ìÄ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(­ƒ‡„8ä¨ìÄ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ëúò8ä¨ìÄ1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(­‡ô8ä¨ìÄ1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(Ëúò8ä¨ìÄ1
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(³É·•üÿÿÿÿ8ä¨ìÄ1
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(Ëúò8ä¨ìÄ1

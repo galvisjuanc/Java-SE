@@ -1,0 +1,39 @@
+
+z
+java:S1104"XMake doctorLogged a static final constant or non-public and provide accessors if needed.(¡¡ûûÿÿÿÿ8†–î…‹1
+v
+java:S1104"YMake patientLogged a static final constant or non-public and provide accessors if needed.(…éşÄ8‡–î…‹1
+T
+java:S1444"2Make this "public static doctorLogged" field final(¡¡ûûÿÿÿÿ8‡–î…‹1
+P
+java:S1444"3Make this "public static patientLogged" field final(…éşÄ8‡–î…‹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ùı8ˆ–î…‹1
+?
+java:S2386"Make this member "protected".(Ú³ÆÄùÿÿÿÿ8‚˜î…‹1
+W
+java:S1118
+":Add a private constructor to hide the implicit public one.(†•ö‚8„˜î…‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ”‹«úÿÿÿÿ8†˜î…‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹ªƒÊüÿÿÿÿ8†˜î…‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ù›êƒ8†˜î…‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÙŠñ‚úÿÿÿÿ8†˜î…‹1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ª£›?8‡˜î…‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“á¿•ÿÿÿÿÿ8‡˜î…‹1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(íĞñ…şÿÿÿÿ8Š˜î…‹1
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(‹¯ş¼8‹˜î…‹1
+T	java:S106*"9Replace this use of System.out or System.err by a logger.(ïÒù8Œ˜î…‹1
+t
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÎÏÉşÿÿÿÿ8˜î…‹1
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(Ô“¦8’˜î…‹1
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ8”˜î…‹1
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(•Ô¹ªûÿÿÿÿ8•˜î…‹1
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(ëëôÏûÿÿÿÿ8•˜î…‹1
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(Â¢‰Ñ8•˜î…‹1
+U	java:S106d"9Replace this use of System.out or System.err by a logger.(Ö¤ôş8•˜î…‹1
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(“á¿•ÿÿÿÿÿ8•˜î…‹1
+U	java:S106m"9Replace this use of System.out or System.err by a logger.(ÉšßÓ8•˜î…‹1
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(€‹¡ıÿÿÿÿ8–˜î…‹1
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(±ì¥ üÿÿÿÿ8–˜î…‹1
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(ìÃÔÿÿÿÿÿ8–˜î…‹1
+N
+java:S1128",Remove this unused import 'javax.print.Doc'.(ö«‘™ıÿÿÿÿ8ñö×£‹1
