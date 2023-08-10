@@ -1,0 +1,97 @@
+Heapsort
+
+Este algoritmo consiste en almacenar todos los elementos en un montículo y luego extraer el nodo que queda como raíz
+en iteraciones sucesivas, obteniendo el conjunto ordenado.
+
+1. Se construye el montículo a partir del arreglo original.
+2. La raíz se coloca en el arreglo.
+3. El último elemento del montículo se vuelve la raíz.
+4. La nueva raíz se intercambia con el elemento de mayor valor.
+5. Tras el paso anterior, la raíz vuelve a ser el mayor del montículo.
+6. Se repite el paso 2 hasta que quede el arreglo ordenado.
+
+Arreglo 5 7 27 3 2 6 12
+                                     5
+                                 7       27
+                               3   2   6    12
+
+heap_sort(arbol, lista_ordenada){
+    while(arbol =! null){
+        insertar_en_monticulo(arbol);
+        extraer_cima(arbol, lista_ordenada);
+        borrar_nodo(arbol, pos);
+    }
+}
+5 < 7 --> Si                          7
+                                    5   27
+                                  3  2 6  12
+                                  (intercambia el 5 por el 7 para que quede en la parte superior
+5 < 3 --> no, 5 < 2 --> no, 7 < 5 --> no
+7 < 27 --> si, entonces intercambia el 7 por el 27
+7 < 6 --> no, 7 < 12 --> si, entonces intercambia
+Después pregunta si 27 < 12. Si no es así, La lista está ordenada. Se intercambia el nodo padre que es 7 en
+este caso por el 27. Así el 27 queda al final del arreglo y se saca del monticulo. Se borra ese nodo.
+
+                                         7
+                                     5       12
+                                  3    2   6
+
+Se pregunta si 5 es menor que 12. Esto es verdad. Luego, se pregunta si 7 es menor que 12.
+7 < 12 --> si, el 12 pasa a la punta.
+7 < 6 --> no
+12 < 7 --> no, si esto es correcto, 12 pasa al final del arreglo, reemplazando el 6
+
+Entonces, siempre se pregunta cuál es el número mayor de todos para colocarlo al final y vuelve a preguntar.
+
+El Heap Sort recorre el conjunto de elementos desde la posición de la mitad hasta la primera organizando el monticulo
+correspondiente a dicho elemento. Una vez terminado este proceso, se inicia el proceso de ordenación intercamiando el
+primer elemento por el último del arreglo y reorganizando el montículo a partir de la primera posición.
+La complejidad del algoritmo de ordenación por montículos de O(n log n) teniendo en cuenta que el proceso de organizar
+el montículo en el peor caso solamente tiene que hacer intercambios sobre una sola línea de elementos desde la raíz del
+árbol hasta alguna de las hojas par aun máximo de n log (n) intercambios.
+
+About this Algorithm
+
+Problem Statement
+Given an unsorted array of n elements, write a function to sort the array
+
+Approach
+* Build a max heap from the input data.
+* At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed
+by reducing the size of heap by 1. Finally, heapify the root of tree.
+* Repeat above steps while size of heap is greater than 1.
+
+Time Complexity
+O(n log n) Worst case performance
+O(n log n) (distinct keys) or O(n) (equal keys) Best-case performance
+O(n log n) Average performance
+
+Space Complexity
+O(1) Worst case auxiliary
+
+Example
+Input data: 4, 10, 3, 5, 1
+        4(0)
+       /   \
+    10(1)   3(2)
+   /   \
+5(3)    1(4)
+
+The numbers in bracket represent the indices in the array
+representation of data.
+
+Applying heapify procedure to index 1:
+        4(0)
+       /   \
+   10(1)    3(2)
+   /   \
+5(3)    1(4)
+
+Applying heapify procedure to index 0:
+       10(0)
+       /  \
+    5(1)  3(2)
+   /   \
+4(3)    1(4)
+The heapify procedure calls itself recursively to build heap
+in top down manner.

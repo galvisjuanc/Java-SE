@@ -1,0 +1,22 @@
+Ordenamiento por Inserción
+
+Es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas
+en forma arbitraria. Requiere O(n2) operaciones para ordenar una lista de n elementos.
+
+5 3 4 1 2
+|
+Señalamos el primer elemento.
+Se comprueba si el elemento de su izquierda es mejor que él. Si numeroIzquierda > numeroActual, se cambia
+
+El iterador cambia al segundo numero
+
+5 3 4 1 2
+  |
+
+Si el número a la izquierda es mayor que el número actual, se cambia.
+3 5 4 1 2
+
+El iterador vuelve a la primera posición y pregunta. Si no hay números, sigue con el siguiente. Y así sucesivamente.
+3 5 4 1 2 -----------------> 3 4 5 1 2
+    |                          |
+Por ejemplo, con el número 1, lo mueve hacia la izquierda una y otra vez hasta que quede ordenado el arreglo.

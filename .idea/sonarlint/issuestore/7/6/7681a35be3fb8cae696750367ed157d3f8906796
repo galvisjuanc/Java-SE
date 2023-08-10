@@ -1,0 +1,14 @@
+
+’
+java:S1319""pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ïá€‚ıÿÿÿÿ8Á‡’…‹1
+m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠØÆé8¹Üñ†‹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çöõ8Â‡’…‹1
+Š
+java:S4165"hRemove this useless assignment; "speciality" already holds the assigned value along all execution paths.(ßş±Šûÿÿÿÿ8Ì‡’…‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ê¸ÿùÿÿÿÿ8Ğ‡’…‹1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(éôÿË8Õ‡’…‹1
+U	java:S106."9Replace this use of System.out or System.err by a logger.(ÚŒò„8Õ‡’…‹1
+H
+java:S1172I"+Remove this unused method parameter "DATE".(ŠØÆé8ËÜñ†‹1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ßş±Šûÿÿÿÿ8Û‡’…‹1

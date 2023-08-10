@@ -1,0 +1,28 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ùı8ÖÖ‡‹1
+U
+java:S2589o"8Remove this expression which always evaluates to "false"(Îïå™8®×Ö‡‹1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(‹¤°°8±×Ö‡‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆšÑÖüÿÿÿÿ8³×Ö‡‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(÷ĞÏÇúÿÿÿÿ8³×Ö‡‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ĞÖÌğ8³×Ö‡‹1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëëôÏûÿÿÿÿ8´×Ö‡‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(–‰™É8´×Ö‡‹1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(º¿ù¾8´×Ö‡‹1
+C	java:S131""Add a default case to this switch.(§Í‡­ùÿÿÿÿ8·×Ö‡‹1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(İÎÄÏüÿÿÿÿ8¹×Ö‡‹1
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ŠÑºÔ8¹×Ö‡‹1
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(­‘Éó8»×Ö‡‹1
+V
+java:S2130A"9Use "Integer.parseInt" for this string-to-int conversion.(·Ëà8»×Ö‡‹1
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(Ò«¶Ò8¼×Ö‡‹1
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(Ø †‰ùÿÿÿÿ8½×Ö‡‹1
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(¸µŠ§üÿÿÿÿ8¾×Ö‡‹1
+`
+java:S1155b">Use isEmpty() to check whether the collection is empty or not.(â¾ğùÿÿÿÿÿ8ÙØ£‹1
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(Éâåû8¾×Ö‡‹1
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(ç‚‰Éşÿÿÿÿ8¾×Ö‡‹1
+U	java:S106n"9Replace this use of System.out or System.err by a logger.(Ö¤ôş8¿×Ö‡‹1
+N
+java:S1128",Remove this unused import 'javax.print.Doc'.(ö«‘™ıÿÿÿÿ8çØ£‹1

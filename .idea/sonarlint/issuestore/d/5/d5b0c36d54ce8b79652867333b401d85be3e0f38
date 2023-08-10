@@ -1,0 +1,19 @@
+
+z	java:S135'"YReduce the total number of break and continue statements in this loop to use at most one.(±†¶…şÿÿÿÿ8 Ìßî1
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ¾©¹
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘8ÖÍßî1
+C
+java:S1659"&Declare "contador" on a separate line.(î©ëÿ8ÖÍßî1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(×ş‰¹şÿÿÿÿ8ÖÍßî1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿ºê‡øÿÿÿÿ8ÖÍßî1
+I
+java:S1125 "'Remove the unnecessary boolean literal.(ú¾ùÿÿÿÿ8ÖÍßî1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(°ß¶â8ÖÍßî1
+D
+java:S1125#"'Remove the unnecessary boolean literal.(ÔÆÊº8ÖÍßî1
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ß›º8ÖÍßî1
+T	java:S106/"9Replace this use of System.out or System.err by a logger.(Ç”Ô.8ÖÍßî1
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Ñ‘´Ô8ÖÍßî1
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(Ëúò8ÖÍßî1

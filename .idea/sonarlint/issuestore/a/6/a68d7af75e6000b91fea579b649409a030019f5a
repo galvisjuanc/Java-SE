@@ -1,0 +1,10 @@
+
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ı»ú8ê•³‡‹1
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ş—Çşÿÿÿÿ8ì•³‡‹1
+“
+java:S1319"qThe type of "appointmentNurses" should be an interface such as "List" rather than the implementation "ArrayList".(µŸ”õúÿÿÿÿ8ì•³‡‹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Çöõ8ï•³‡‹1
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(éÓìÚ8«–³‡‹1
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(ªŠ´šùÿÿÿÿ8¯–³‡‹1

@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û—âµ
+c
+java:S1659"GDeclare "nElementos" and all following declarations on a separate line.(¿Ü§y8ÿŞ’¢1
+F
+java:S1197"*Move the array designators [] to the type.(¿Ü§y8ÿŞ’¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¡±Ì¸ùÿÿÿÿ8ÿŞ’¢1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÁÏœ¡8ÿŞ’¢1
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ÿŞïØ8ÿŞ’¢1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Ì©Ñœıÿÿÿÿ8ÿŞ’¢1
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(û†¿üÿÿÿÿ8ÿŞ’¢1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ÃÌäÿÿÿÿÿ8ÿŞ’¢1

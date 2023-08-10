@@ -1,0 +1,29 @@
+
+f
+java:S1192"IDefine a constant instead of duplicating this literal "Alumno [" 3 times.(ÑÌÉ²8¹’òî1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼Ù½ó8Ø—ñî1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©
+a
+java:S1659"DDeclare "segundo" and all following declarations on a separate line.(‘ ‘„8ƒ“òî1
+k
+java:S1659"IDeclare "sumarSegundo" and all following declarations on a separate line.(ˆê¶æùÿÿÿÿ8ƒ“òî1
+i
+java:S1659"LDeclare "promedioSegundo" and all following declarations on a separate line.(ğ¬¾ğ8ƒ“òî1
+G
+java:S1197"*Move the array designators [] to the type.(‘ ‘„8ƒ“òî1
+G
+java:S1197"*Move the array designators [] to the type.(‘ ‘„8ƒ“òî1
+G
+java:S1197"*Move the array designators [] to the type.(‘ ‘„8ƒ“òî1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚Ğòƒùÿÿÿÿ8ƒ“òî1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÌÉ²8ƒ“òî1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(êÁ²«8ƒ“òî1
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ÑÌÉ²8ƒ“òî1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ñÂèûıÿÿÿÿ8ƒ“òî1
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(ÑÌÉ²8ƒ“òî1
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ÍÇò•8““òî1
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(›ùß£şÿÿÿÿ8““òî1
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(Äˆê8““òî1
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(†¹ÀØüÿÿÿÿ8““òî1
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(–†õ˜8““òî1
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ˆÙ‹¨ıÿÿÿÿ8““òî1

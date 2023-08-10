@@ -1,0 +1,21 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùı¥€ıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı“ô©
+G
+java:S1659"%Declare "puntero" on a separate line.(Ãì¦™ıÿÿÿÿ8Éôô¡Œ1
+G
+java:S1197"*Move the array designators [] to the type.(ï¸ƒ¤8Éôô¡Œ1
+F
+java:S1197"*Move the array designators [] to the type.(Õı†K8Éôô¡Œ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıÒœÿÿÿÿÿ8Ùôô¡Œ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿ºê‡øÿÿÿÿ8Ùôô¡Œ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(—ğãî8Ùôô¡Œ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹–Šüùÿÿÿÿ8Ùôô¡Œ1
+L
+java:S1197"*Move the array designators [] to the type.(Êì¡ÿÿÿÿÿ8Ùôô¡Œ1
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ĞşßŒ8Ùôô¡Œ1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(§Éä‡ûÿÿÿÿ8Ùôô¡Œ1
+v
+java:S3012/"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ùİ™8Ùôô¡Œ1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(÷Ûß«ùÿÿÿÿ8Ùôô¡Œ1
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(‹–Šüùÿÿÿÿ8Ùôô¡Œ1

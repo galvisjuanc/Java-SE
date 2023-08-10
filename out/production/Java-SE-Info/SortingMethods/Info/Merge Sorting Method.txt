@@ -1,0 +1,144 @@
+Ordenamiento por Mezclas (Merge Sort)
+
+Conocido como fusionar la clasificación, este método utiliza la recursión para resolver el problema de la clasificación de manera
+más eficiente que los algoritmos de burbuja, por inserción y por selección. El enfoque está en dividir y conquistar.
+
+Usando estos dos conceptos, se divide la matriz completa en dos subarrays y luego:
+1. Ordena la mitad izquierda de la matriz (Recursivamente)
+2. Ordena la mitad derecha de la matriz (Recursivamente)
+3. Fusiona las soluciones
+
+                                            3 5 4 2 1
+                                            1 2 3 4 5
+                                3 5 4                       2 1
+                                3 4 5                       1 2
+                    3 5                 4               2           1
+                    3 5                 4               2           1
+                3           5
+                3           5
+
+Este árbol está destinado a representar como funcionan las llamadas recursivas. Las matrices marcadas con la flecha hacia abajo
+son aquellas para las que llamamos la función, mientras que estamos fusionando las flechas hacia arriba que van hacia arriba. Entonces,
+siga la flecha hacia abajo hasta la parte interior del árbol y luego vuelva a subir y fusionar. En este caso, la matriz se divide en sus
+componentes y luego de que todo está dividido, se comienzan a unir y a clasificar.
+
+Implementación
+Se pasan índices left y right que son índices del elemento más a la izquierda y más a la derecha del subarreglo que queremos ordenar.
+Inicialmente, deben ser 0 y array.length-1, dependiendo de la implementación.
+La base de nuestra recursión asegura que salgamos cuando hayamos terminado, o cuando right y cuando left se encuentren. En ese punto medio mid, y
+se ordenan los arreglos de izquierda a derecha de forma recursiva, fusionando nuestras soluciones en última instancia.
+
+public static void mergeSort(int[] array, int left, int right) {
+    if (right <= left) return;
+    int mid = (left+right)/2;
+    mergeSort(array, left, mid);
+    mergeSort(array, mid+1, right);
+    merge(array, left, mid, right);
+}
+
+Esta primera parte lo que hace es descomponer el arreglo en partes más pequeñas cada vez y cada vez. Se puede decir que es la División.
+
+Ahora, cuando se divide a su máxima expresión, se usa la función que hace la mezcla. Este metodo utiliza los punteros que fueron encontrados
+anteriormente. La parte izquierda, la del medio y la derecha.
+1. Se calcula la longitud del arreglo para que cada vez que se llame esta función, se calcule sobre la última división, luego la penúltima y así.
+2. Cuando se crean los arreglos temporales, se les asigna el tamaño según la división realizada.
+3. Después se almacen los valores del arreglo inicial en el arreglo temporal.
+4. Los iteradores contienen los indices actuales de los arreglos subteporales
+5. Ahora, se copian estos arreglos temporales en el arreglo inicial.
+6. En el último paso, se empiezan a trasladar valores para irlos moviendo. Se empieza arreglando desde el más pequeño arreglo de 2 números hasta el
+arreglo que dividió el arreglo a la mitad. Ahí es más sencillo organizar los valores porque los subarreglos se organizaron primero para que estuvieran
+en orden creciente y luego, al comparar los valores de cada arreglo, se organizan sin temor de izquierda a derecha.
+
+    public static void merge(int[] array, int left, int mid, int right){
+        // Calculando longitudes
+        int lengthLeft = mid - left + 1;                //variable longitud arreglo izquierda
+        int lengthRight = right - mid;                  //variable longitud arreglo derecha
+
+        // creating temporary subarrays
+        int leftArray[] = new int [lengthLeft];         //arreglos temporales del tamaño anterior
+        int rightArray[] = new int [lengthRight];
+
+        // copying our sorted subarrays into temporaries
+        for (int i = 0; i < lengthLeft; i++)            //Se almacena en el arreglo temporal, la posición del arreglo izquierdo
+            leftArray[i] = array[left+i];
+        for (int i = 0; i < lengthRight; i++)           //Se almacena en el arreglo temporal, la posición del arreglo derecho
+            rightArray[i] = array[mid+i+1];
+
+        // iterators containing current index of temp subarrays
+        int leftIndex = 0;                              //indice izquierdo de los arreglos temporales
+        int rightIndex = 0;                             //indice derecho del arreglo temporal
+
+        // copying from leftArray and rightArray back into array
+        for (int i = left; i < right + 1; i++) {        //uniendo lo separado en un arreglo
+            // if there are still uncopied elements in R and L, copy minimum of the two
+            if (leftIndex < lengthLeft && rightIndex < lengthRight) {       //Se revisa si esto se cumple para mover los valores
+                if (leftArray[leftIndex] < rightArray[rightIndex]) {        //Si esto se cumple, se modifica el arreglo principal con el valor del arreglo temporal
+                    array[i] = leftArray[leftIndex];
+                    leftIndex++;
+                }
+                else {                                  // Si no se cumple, se modifica el arreglo con el valor de la derecha
+                    array[i] = rightArray[rightIndex];
+                    rightIndex++;
+                }
+            }
+            // if all the elements have been copied from rightArray, copy the rest of leftArray
+            else if (leftIndex < lengthLeft) {
+                array[i] = leftArray[leftIndex];
+                leftIndex++;
+            }
+            // if all the elements have been copied from leftArray, copy the rest of rightArray
+            else if (rightIndex < lengthRight) {
+                array[i] = rightArray[rightIndex];
+                rightIndex++;
+            }
+        }
+    }
+
+About this Algorithm
+
+Problem Statement
+Given an array of n elements, write a function to sort the array
+
+Approach
+* Find a mid point and divide the array into to halves based on the mid point
+* Recursively call the merge sort function for both the halves
+* Merge the two sorted halves to get the sorted array
+
+Time Complexity
+Best case - O(n log n)
+Average - O(n log n)
+Worst case - O(n log n)
+
+Space Complexity
+O(n)
+
+Example 1
+arr = [1, 3, 9, 5, 0, 2]
+
+Divide the array in two halves [1, 3, 9] and [5, 0, 2]
+
+Recursively call merge sort function for both these halves which will provide sorted halves
+=> [1, 3, 9] & [0, 2, 5]
+
+Now merge both these halves to get the sorted array [0, 1, 2, 3, 5, 9]
+
+Example 2
+arr = [1, 9, 2, 5, 7, 3, 6, 4]
+
+Divide the array into two halves [1, 9, 2, 5] and [7, 3, 6, 4]
+
+As you can see that the above two halves are not yet sorted, so divide both of them into two halves again.
+
+This time we get four arrays as [1, 9], [2, 5], [7, 3] and [6, 4].
+
+We see that the last two arrays are again not sorted, so we divide them again into two halves and we will get [7], [3], [6], and [4].
+
+Since an array of a single element is sorted, we now have all the arrays sorted, now we only need to merge them appropriately.
+
+First, the arrays of one element will be merged as they were divided in last, and are at top of the recursion stack, so we get [3,7] and [4,6].
+
+Now the merge will occur accordingly to the recursion stack, [1, 9] and [2, 5] will be merged and will make [1, 2, 5, 9].
+
+Similarly [3, 7] and [4, 6] will be merged and made [3, 4, 6, 7].
+
+At the next stack level [1, 2, 5, 9] and [3, 4, 6, 7] will be merged and we will get the final sorted array as [1, 2, 3, 4, 5, 6, 7, 9].
