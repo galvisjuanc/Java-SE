@@ -209,3 +209,15 @@ M
 .src/POO/Data/Métodos - Retorno de Valores.txt,5\c\5c6ac07523c6201afbc0efe1cc6f69399cc13a10
 [
 +src/POO/Data/Sobreescritura de Miembros.txt,3\a\3a76eaf3c2490f675b521fb8f86e4860f2b12b5b
+Z
+*src/POO/Clases/ClasesObjetos5/Persona.java,d\0\d0e9f6da33113b2827f94895e4b913c6090a185d
+\
+,src/POO/Clases/ClasesObjetos5/Principal.java,e\d\ed108aa735db7e331bedc7da5ab632acc1c0c3bc
+W
+'src/POO/Clases/ClasesObjetos4/Main.java,c\2\c208214802139083a3122b88494f41201c1ab278
+\
+,src/POO/Clases/ClasesObjetos3/Operacion.java,3\f\3fbfc8db7799e6898601543517c59e2fd859200a
+Y
+)src/POO/Clases/ClasesObjetos3/Source.java,c\2\c22636f1bdf691a1aae012fcfa24e12104952fba
+\
+,src/POO/Clases/ClasesObjetos4/Operacion.java,6\8\68dbd2d248c80d1e0c2f44fc6cc9a4af677028ce
