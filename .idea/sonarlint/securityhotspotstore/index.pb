@@ -179,8 +179,6 @@ a
 1src/POO/Data/Miembros estáticos de una clase.txt,0\0\0019c4afc3f048a68d59059ddc4799225a2e5ad2
 W
 'src/POO/Data/Clases y Metodos Final.txt,2\4\24decded1e63a828a0303d1467be442094d4542a
-@
-src/POO/Info.txt,e\c\ec5384341fbb8d68fb231c3cffcf9b61022f3f76
 ]
 -src/POO/Data/Clases y Métodos Abstractos.txt,4\e\4eec8b3e494127166b197e23efafea93d574beb1
 ]
@@ -221,3 +219,17 @@ Y
 )src/POO/Clases/ClasesObjetos3/Source.java,c\2\c22636f1bdf691a1aae012fcfa24e12104952fba
 \
 ,src/POO/Clases/ClasesObjetos4/Operacion.java,6\8\68dbd2d248c80d1e0c2f44fc6cc9a4af677028ce
+Z
+*src/POO/Clases/ClasesObjetos6/Persona.java,a\f\af856d7c8c467ca444eceeed0cf5fa87512ed4dc
+\
+,src/POO/Clases/ClasesObjetos6/Principal.java,b\e\be540a0725f3d89528ffc7c246d8d14690b8c99c
+[
++src/POO/Clases/ClasesObjetos9/Estatico.java,0\e\0e48c8cd387b6ee3a1c6c0760b85139d89c6f0d4
+\
+,src/POO/Clases/ClasesObjetos7/Principal.java,a\5\a5386ac2be5286155f9fc9b7d3c13d7e422496db
+Y
+)src/POO/Clases/ClasesObjetos7/Clase1.java,f\a\fa3f723e700adb64d340975e2637a18e520c0d50
+\
+,src/POO/Clases/ClasesObjetos8/Principal.java,9\b\9b48d84407e28b424f88cd929f4a4e2c1a1dde3a
+Z
+*src/POO/Clases/ClasesObjetos8/Persona.java,5\d\5d96f70f52063daa8fbbc562f7e92059422e5fbd
