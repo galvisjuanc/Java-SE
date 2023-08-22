@@ -233,3 +233,5 @@ Y
 ,src/POO/Clases/ClasesObjetos8/Principal.java,9\b\9b48d84407e28b424f88cd929f4a4e2c1a1dde3a
 Z
 *src/POO/Clases/ClasesObjetos8/Persona.java,5\d\5d96f70f52063daa8fbbc562f7e92059422e5fbd
+@
+src/POO/Info.txt,e\c\ec5384341fbb8d68fb231c3cffcf9b61022f3f76

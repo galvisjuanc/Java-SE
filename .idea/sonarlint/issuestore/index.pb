@@ -233,3 +233,5 @@ Z
 *src/POO/Clases/ClasesObjetos8/Persona.java,5\d\5d96f70f52063daa8fbbc562f7e92059422e5fbd
 [
 +src/POO/Clases/ClasesObjetos9/Estatico.java,0\e\0e48c8cd387b6ee3a1c6c0760b85139d89c6f0d4
+@
+src/POO/Info.txt,e\c\ec5384341fbb8d68fb231c3cffcf9b61022f3f76
