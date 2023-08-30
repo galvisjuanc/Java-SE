@@ -6,10 +6,12 @@ public class Principal {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        String nombre, apellido, dni;
+        String nombre;
+        String apellido;
+        String dni;
         int numeroCuenta, nCuentas, opcion, indiceCuenta;
         double saldo, cantidad;
-        Cuenta cuentas[];
+        Cuenta[] cuentas;
         Cliente cliente;
 
         System.out.print("Digite el nombre del cliente: ");
@@ -107,7 +109,7 @@ public class Principal {
         System.out.println("Fin del programa");
     }
 
-    public static int buscarNumeroCuenta(Cuenta cuentas[], int n){
+    public static int buscarNumeroCuenta(Cuenta[] cuentas, int n){
         int i = 0;
         int indice = 0;
         boolean encontrado = false;
