@@ -108,18 +108,19 @@ public class Principal {
     }
 
     public static int buscarNumeroCuenta(Cuenta cuentas[], int n){
-        int i = 0, indice = 0;
+        int i = 0;
+        int indice = 0;
         boolean encontrado = false;
 
         //Búsqueda secuencial
-        while((i < cuentas.length) && (encontrado == false)){
+        while((i < cuentas.length) && (!encontrado)){
             if(cuentas[i].getNumeroCuenta() == n){
                 encontrado = true;
                 indice = i;
             }
             i++;
         }
-        if(encontrado == false){
+        if(!encontrado){
             indice = -1;
         }
         return indice;
