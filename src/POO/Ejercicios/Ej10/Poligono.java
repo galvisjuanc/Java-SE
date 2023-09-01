@@ -18,7 +18,7 @@ public abstract class Poligono {
 
         @Override
         public String toString() {
-            return "Poligono{" +
+            return "Poligono {" +
                     "Número Lados=" + numeroLados +
                     '}';
         }
