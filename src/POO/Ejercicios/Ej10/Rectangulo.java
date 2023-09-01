@@ -28,7 +28,7 @@ public class Rectangulo extends Poligono{
 
     @Override
     public String toString() {
-        return "Rectangulo: {" +
+        return "Rectangle: {" +
                 "Número Lados =" + numeroLados +
                 ", lado 1 =" + lado1 +
                 ", lado 2 =" + lado2 +
