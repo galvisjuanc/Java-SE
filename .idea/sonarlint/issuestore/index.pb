@@ -269,3 +269,17 @@ U
 %src/POO/Ejercicios/Ej6/Enunciado6.txt,0\8\088a9d665848bef73d827501cc8c42336d9fb6c4
 U
 %src/POO/Ejercicios/Ej6/Principal.java,9\7\975d4dfe372f0f78f77af4be93c5a4a5ffcda398
+U
+%src/POO/Ejercicios/Ej8/Enunciado8.txt,b\6\b65a1d74aa4eac996a77977d0e1c70a564fa4cfd
+U
+%src/POO/Ejercicios/Ej7/Principal.java,9\7\97ec0f988428b29a3736afd05cf59fbb8bfd4d53
+Z
+*src/POO/Ejercicios/Ej7/NumeroComplejo.java,3\e\3e3e10bede76a69ccd5ad7bdcf90da800bf995e9
+R
+"src/POO/Ejercicios/Ej8/Cuenta.java,b\6\b61137a99d11be4fadf75ae96d9199f843a47ec1
+S
+#src/POO/Ejercicios/Ej8/Cliente.java,8\9\89d665f7c9ae43e15c53aacade78f9c0ff321bf0
+U
+%src/POO/Ejercicios/Ej7/Enunciado7.txt,7\f\7f059a8d0af6d3add171728d6df523934d9d2d04
+U
+%src/POO/Ejercicios/Ej8/Principal.java,3\e\3e1b0f31f908166714ab3a8a97f438ef1331e6ef
