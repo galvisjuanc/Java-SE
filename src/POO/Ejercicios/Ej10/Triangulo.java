@@ -49,7 +49,8 @@ public class Triangulo extends Poligono {
     @Override
     public double area() {
         /* Fórmula de Herón: a, b y c.        * p = a + b + c / 2.        * A = sqrt((p * (p-a)*(p-b)*(p-c)) */
-        double perimetroTriangulo, areaTriangulo;
+        double perimetroTriangulo;
+        double areaTriangulo;
         perimetroTriangulo = (getLado1() + getLado2() + getLado3())/2;
         areaTriangulo = Math.sqrt(perimetroTriangulo * (perimetroTriangulo-getLado1())*(perimetroTriangulo-getLado2())*(perimetroTriangulo-getLado3()));
         return areaTriangulo;
