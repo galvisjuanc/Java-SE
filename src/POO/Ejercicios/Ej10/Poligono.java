@@ -8,14 +8,6 @@ public abstract class Poligono {
             this.numeroLados = numeroLados;
         }
 
-        public int getNumeroLados() {
-            return numeroLados;
-        }
-
-        public void setNumeroLados(int numeroLados) {
-            this.numeroLados = numeroLados;
-        }
-
         @Override
         public String toString() {
             return "Poligono {" +
