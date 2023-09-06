@@ -52,7 +52,10 @@ public class Triangulo extends Poligono {
         double perimetroTriangulo;
         double areaTriangulo;
         perimetroTriangulo = (getLado1() + getLado2() + getLado3())/2;
-        areaTriangulo = Math.sqrt(perimetroTriangulo * (perimetroTriangulo-getLado1())*(perimetroTriangulo-getLado2())*(perimetroTriangulo-getLado3()));
+        areaTriangulo = Math.sqrt(perimetroTriangulo *
+                (perimetroTriangulo-getLado1())*
+                (perimetroTriangulo-getLado2())*
+                (perimetroTriangulo-getLado3()));
         return areaTriangulo;
     }
 }
