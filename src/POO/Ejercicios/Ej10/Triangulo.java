@@ -16,10 +16,6 @@ public class Triangulo extends Poligono {
         return lado1;
     }
 
-    public void setLado1(double lado1) {
-        this.lado1 = lado1;
-    }
-
     public double getLado2() {
         return lado2;
     }
