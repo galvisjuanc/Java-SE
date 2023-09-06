@@ -17,10 +17,11 @@ public class Principal {
         char respuesta;
         do {
             do {
-                System.out.println("Digite qué poligono desea: ");
+                System.out.println("::... Menú del Programa ...::");
+                System.out.println("Qué tipo de poligono desea: ");
                 System.out.println("1. Triangulo");
                 System.out.println("2. Rectangulo");
-                System.out.print("Opción: ");
+                System.out.print("Opción --> ");
 
                 opcion = entrada.nextInt();
             } while(opcion < 1 || opcion > 2);
@@ -41,7 +42,9 @@ public class Principal {
     }
 
     public static void llenarTriangulo(){
-        double l1, l2, l3;
+        double l1;
+        double l2;
+        double l3;
 
         System.out.print("\nDigite el lado1 del triángulo: ");
         l1 = entrada.nextDouble();
