@@ -6,8 +6,9 @@ Diseñar y codificar una aplicación informática para una compañía de gestió
 
 * Cada compañía se caracteriza por el nombre y la lista de vuelos que ofrece.
 
-* Los vuelos están definidos por su identificador, la ciudad de origen, la ciudad de destino, el precio del viaje, la lista de pasajeros,
-el número máximo de pasajeros permitidos en el vuelo y el número real de pasajeros que ha reservado asiento en el avión.
+* Los vuelos están definidos por su identificador, la ciudad de origen, la ciudad de destino, el precio del viaje,
+la lista de pasajeros, el número máximo de pasajeros permitidos en el vuelo y
+el número real de pasajeros que ha reservado asiento en el avión.
 
 * Los aeropuertos pueden ser privados o públicos.
 ** Los aeropuertos privados tienen una serie de empresas que los patrocinan y es necesario saber el nombre de cada una de esas empresas.
