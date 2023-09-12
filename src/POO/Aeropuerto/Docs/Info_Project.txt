@@ -34,8 +34,9 @@ Clases necesarias para elaborar el Diagrama de clases UML.
 * Aeropuerto (todas las compañías de vuelos, nombre del aeropuerto, la ciudad donde se ubica y el país al que pertenece).
 Como se habla de una compañía de vuelos, eso sería otra clase. Se deben crear primero las clases secundarias.
 * Compañía (nombre de la companía y la lista de vuelos que ofrece). Vuelo puede ser una clase.
-* Vuelo (identificador, la ciudad de origen, la ciudad de destino, el precio del viaje, la lista de pasajeros, el número máximo de pasajeros
-permitidos en el vuelo y el número real de pasajeros que ha reservado asiento en el avión). Pasajeros puede ser una clase.
+* Vuelo (identificador, la ciudad de origen, la ciudad de destino, el precio del viaje, la lista de pasajeros,
+el número máximo de pasajeros permitidos en el vuelo y el número real de pasajeros que ha reservado asiento en el avión).
+Pasajeros puede ser una clase.
 * Pasajeros (nombre, número de pasaporte y nacionalidad). (Esta es la primera que debe diseñarse).
 
 #### IMPORTANTE ####
