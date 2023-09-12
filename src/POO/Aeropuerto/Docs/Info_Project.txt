@@ -11,7 +11,8 @@ la lista de pasajeros, el número máximo de pasajeros permitidos en el vuelo y
 el número real de pasajeros que ha reservado asiento en el avión.
 
 * Los aeropuertos pueden ser privados o públicos.
-** Los aeropuertos privados tienen una serie de empresas que los patrocinan y es necesario saber el nombre de cada una de esas empresas.
+** Los aeropuertos privados tienen una serie de empresas que los patrocinan y es necesario saber el nombre de
+cada una de esas empresas.
 ** Para los aeropuertos públicos, se requiere saber la cantidad de dinero correspondiente a la subvención gubernamental.
 
 * Se necesita gestionar también la información de los pasajeros.
@@ -19,8 +20,8 @@ el número real de pasajeros que ha reservado asiento en el avión.
 
 La aplicación tendrá un menú con las siguientes opciones:
 
-1. Consultar los aeropuertos gestionados, indicando separadamente los aeropuertos públicos y los privados. Para cada uno de ellos, deberá
-mostrar su nombre, la ciudad de ubicación y el país al que pertenece.
+1. Consultar los aeropuertos gestionados, indicando separadamente los aeropuertos públicos y los privados.
+Para cada uno de ellos, deberá mostrar su nombre, la ciudad de ubicación y el país al que pertenece.
 2. Visualizar las empresas que patrocinan un determinado aeropuerto en caso que sea privado, o la cuantía de la subvención en caso de que
 se trate de un aeropuerto público.
 3. Para un determinado aeropuerto, se debe poder mostrar la lista de compañías que vuelan desde ese aeropuerto.
@@ -34,8 +35,9 @@ Clases necesarias para elaborar el Diagrama de clases UML.
 * Aeropuerto (todas las compañías de vuelos, nombre del aeropuerto, la ciudad donde se ubica y el país al que pertenece).
 Como se habla de una compañía de vuelos, eso sería otra clase. Se deben crear primero las clases secundarias.
 * Compañía (nombre de la companía y la lista de vuelos que ofrece). Vuelo puede ser una clase.
-* Vuelo (identificador, la ciudad de origen, la ciudad de destino, el precio del viaje, la lista de pasajeros, el número máximo de pasajeros
-permitidos en el vuelo y el número real de pasajeros que ha reservado asiento en el avión). Pasajeros puede ser una clase.
+* Vuelo (identificador, la ciudad de origen, la ciudad de destino, el precio del viaje, la lista de pasajeros,
+el número máximo de pasajeros permitidos en el vuelo y el número real de pasajeros que ha reservado asiento en el avión).
+Pasajeros puede ser una clase.
 * Pasajeros (nombre, número de pasaporte y nacionalidad). (Esta es la primera que debe diseñarse).
 
 #### IMPORTANTE ####
