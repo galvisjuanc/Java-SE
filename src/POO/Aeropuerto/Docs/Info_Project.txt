@@ -1,4 +1,4 @@
-Diseñar y codificar una aplicación informática para una compañía de gestión aeroportuaria, satisfaciendo los siguientes requisitos:
+Diseñar y codificar una aplicación informática para una compañía de gestión aeroportuaria, satisfaciendo los requisitos:
 
 * Para cada aeropuerto, es necesario saber:
 ** Todas las compañías de vuelos que operan en él.
@@ -25,10 +25,10 @@ Para cada uno de ellos, deberá mostrar su nombre, la ciudad de ubicación y el 
 2. Visualizar las empresas que patrocinan un determinado aeropuerto en caso que sea privado, o la cuantía de la
 subvención en caso de que se trate de un aeropuerto público.
 3. Para un determinado aeropuerto, se debe poder mostrar la lista de compañías que vuelan desde ese aeropuerto.
-4. Para una determinada compañía que opera en un aeropuerto concreto, listar todos los posibles vuelos que dicha compañía ofrece, mostrando
-su identificador, la ciudad origen y destino y el precio del vuelo.
-5. Mostrar todos los posibles vuelos (identificador) que parten de una ciudad origen a otra ciudad destino (indicadas por el usuario) y
-mostrar su precio.
+4. Para una determinada compañía que opera en un aeropuerto concreto, listar todos los posibles vuelos que dicha compañía
+ofrece, mostrando su identificador, la ciudad origen y destino y el precio del vuelo.
+5. Mostrar todos los posibles vuelos (identificador) que parten de una ciudad origen a otra ciudad destino
+(indicadas por el usuario) y mostrar su precio.
 
 Clases necesarias para elaborar el Diagrama de clases UML.
 
@@ -41,6 +41,7 @@ Pasajeros puede ser una clase.
 * Pasajeros (nombre, número de pasaporte y nacionalidad). (Esta es la primera que debe diseñarse).
 
 #### IMPORTANTE ####
-** Aeropuerto puede ser privado o público. Esto quiere decir que es una clase padre y, dentro tendrá dos clases hijas: Aprivado y Apúblico.
+** Aeropuerto puede ser privado o público. Esto quiere decir que es una clase padre y, dentro tendrá dos clases hijas:
+Aprivado y Apúblico.
 *** Aeropuerto Privado tiene un atributo diferente (nombre de las empresas que los patrocinan)
 *** Aeropuerto Público tiene un atributo diferente (cantidad de dinero = subvención gubernamental)
