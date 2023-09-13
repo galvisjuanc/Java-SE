@@ -22,8 +22,8 @@ La aplicación tendrá un menú con las siguientes opciones:
 
 1. Consultar los aeropuertos gestionados, indicando separadamente los aeropuertos públicos y los privados.
 Para cada uno de ellos, deberá mostrar su nombre, la ciudad de ubicación y el país al que pertenece.
-2. Visualizar las empresas que patrocinan un determinado aeropuerto en caso que sea privado, o la cuantía de la subvención en caso de que
-se trate de un aeropuerto público.
+2. Visualizar las empresas que patrocinan un determinado aeropuerto en caso que sea privado, o la cuantía de la
+subvención en caso de que se trate de un aeropuerto público.
 3. Para un determinado aeropuerto, se debe poder mostrar la lista de compañías que vuelan desde ese aeropuerto.
 4. Para una determinada compañía que opera en un aeropuerto concreto, listar todos los posibles vuelos que dicha compañía ofrece, mostrando
 su identificador, la ciudad origen y destino y el precio del vuelo.
