@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Principal {
     static Scanner entrada = new Scanner(System.in);
-    final static int num = 4;           // # aeropuertos
-    static Aeropuerto aeropuertos [] = new Aeropuerto[num];
+    static final int num = 4;           // # aeropuertos
+    static Aeropuerto[] aeropuertos = new Aeropuerto[num];
 
     public static void main(String[] args) {
         //insertar datos de aeropuertos
@@ -54,7 +54,10 @@ public class Principal {
     }
 
     public static void menu(){
-        String nombreAeropuerto, nombreCompañia, origen, destino;
+        String nombreAeropuerto;
+        String nombreCompañia;
+        String origen;
+        String destino;
         int opcion;
         Aeropuerto aero;
         Compañia company;
