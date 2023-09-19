@@ -54,7 +54,10 @@ public class Principal {
     }
 
     public static void menu(){
-        String nombreAeropuerto, nombreCompañia, origen, destino;
+        String nombreAeropuerto;
+        String nombreCompañia;
+        String origen;
+        String destino;
         int opcion;
         Aeropuerto aero;
         Compañia company;
