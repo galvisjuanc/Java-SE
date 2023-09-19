@@ -1,4 +1,4 @@
-package POO.Aeropuerto;
+package POO.Aeropuerto.Objects;
 
 public class AeropuertoPrivado extends Aeropuerto{
     private String[] listaEmpresas = new String[10];
