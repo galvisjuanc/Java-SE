@@ -1,4 +1,4 @@
-package POO.Aeropuerto;
+package POO.Aeropuerto.Objects;
 
 public class Pasajero {
     private String nombre;
