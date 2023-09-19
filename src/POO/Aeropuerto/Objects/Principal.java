@@ -166,7 +166,7 @@ public class Principal {
         }
     }
 
-    public static Aeropuerto buscarAeropuerto(String nombre, Aeropuerto aeropuertos[]){
+    public static Aeropuerto buscarAeropuerto(String nombre, Aeropuerto[] aeropuertos){
         boolean encontrado = false;
         int i = 0;
         Aeropuerto aero = null;
@@ -202,10 +202,10 @@ public class Principal {
         }
     }
 
-    public static Vuelo[] buscarVuelosOrigenDestino(String origen, String destino, Aeropuerto aeropuertos[]){
+    public static Vuelo[] buscarVuelosOrigenDestino(String origen, String destino, Aeropuerto[] aeropuertos){
         Vuelo vuelo;
         int contador = 0;
-        Vuelo listaVuelos[];
+        Vuelo[] listaVuelos;
 
         for (int i = 0; i < aeropuertos.length; i++) {          // Recorremos los aeropuertos
             for (int j = 0; j < aeropuertos[i].getNumCompañia(); j++) {             //Recorremos las compañias
