@@ -237,7 +237,7 @@ public class Principal {
     }
 
     public static void mostrarVueloOrigenDestino(String origen, String destino, Aeropuerto aeropuertos[]){
-        Vuelo vuelos[];
+        Vuelo[] vuelos;
         vuelos = buscarVuelosOrigenDestino(origen, destino, aeropuertos);
         if(vuelos.length == 0){
             System.out.println("No existen vuelos de esa ciudad origen a destino");
