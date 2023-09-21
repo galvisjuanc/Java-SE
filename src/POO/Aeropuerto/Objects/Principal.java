@@ -223,7 +223,7 @@ public class Principal {
 
         for (int i = 0; i < aeropuertos.length; i++) {          // Recorremos los aeropuertos
             for (int j = 0; j < aeropuertos[i].getNumCompañia(); j++) {             //Recorremos las compañias
-                for (int k = 0; k < aeropuertos[i].getCompañia(j).getNumVuelo(); k++) {             //Recorremos los vuelos
+                for (int k = 0; k < aeropuertos[i].getCompañia(j).getNumVuelo(); k++) {          //Recorremos los vuelos
                     vuelo = aeropuertos[i].getCompañia(j).getVuelo(k);
                     if((origen.equals(vuelo.getCiudadOrigen())) && (destino.equals(vuelo.getCiudadDestino()))){
                         listaVuelos [q] = vuelo;
@@ -236,7 +236,7 @@ public class Principal {
         return listaVuelos;
     }
 
-    public static void mostrarVueloOrigenDestino(String origen, String destino, Aeropuerto aeropuertos[]){
+    public static void mostrarVueloOrigenDestino(String origen, String destino, Aeropuerto[] aeropuertos){
         Vuelo[] vuelos;
         vuelos = buscarVuelosOrigenDestino(origen, destino, aeropuertos);
         if(vuelos.length == 0){
