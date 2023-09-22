@@ -91,7 +91,7 @@ public class Principal {
                         System.out.println("El aeropuerto no existe");
                     }
                     else{
-                        mostrarCompañias(aero);
+                        mostrarCompanias(aero);
                     }
                     break;
                 case 4:
@@ -180,7 +180,7 @@ public class Principal {
         return aero;
     }
 
-    public static void mostrarCompañias(Aeropuerto aeropuerto){
+    public static void mostrarCompanias(Aeropuerto aeropuerto){
         System.out.println("\nLas compañías del aeropuerto "+aeropuerto.getNombre()+" son:");
         for (int i = 0; i < aeropuerto.getNumCompañia(); i++) {
             System.out.print(aeropuerto.getCompañia(i).getNombre() + " ");
