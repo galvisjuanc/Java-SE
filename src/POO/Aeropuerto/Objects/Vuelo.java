@@ -41,14 +41,6 @@ public class Vuelo {
         return precio;
     }
 
-    public int getNumMaxPasajeros() {
-        return numMaxPasajeros;
-    }
-
-    public int getNumActualPasajeros() {
-        return numActualPasajeros;
-    }
-
     public Pasajero getPasajero(int i){
         return listaPasajeros[i];
     }
