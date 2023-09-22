@@ -8,7 +8,7 @@ public class Vuelo {
     private double precio;
     private int numMaxPasajeros;
     private int numActualPasajeros;
-    private Pasajero listaPasajeros[];
+    private Pasajero[] listaPasajeros;
 
     public Vuelo(String identificador, String ciudadOrigen, String ciudadDestino, double precio, int numMaxPasajeros) {
         this.identificador = identificador;
@@ -58,7 +58,6 @@ public class Vuelo {
         int i = 0;
         Pasajero pas = null;
         while(!encontrado && (i < listaPasajeros.length)){
-            //if(pasaporte == listaPasajeros[i].getPasaporte()){
             if(pasaporte.equals(listaPasajeros[i].getPasaporte())){
                 encontrado = true;
                 pas = listaPasajeros[i];

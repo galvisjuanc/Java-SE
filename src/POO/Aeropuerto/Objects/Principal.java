@@ -32,7 +32,7 @@ public class Principal {
 
         aero[1] = new AeropuertoPrivado("Central Ciudad Real","Ciudad Real", "España");
         aero[1].insertarCompañia(new Compañia("AirEuropa"));
-        String empresasAP[] =  {"AWS", "Mercadolibre", "HelloWorld"};
+        String [] empresasAP =  {"AWS", "Mercadolibre", "HelloWorld"};
         ((AeropuertoPrivado)aero[1]).insertarEmpresas(empresasAP);
         aero[1].getCompañia("AirEuropa").insertarVuelo(new Vuelo("AE025", "Madrid", "Asunción", 450, 200));
         aero[1].getCompañia("AirEuropa").getVuelo("AE025").insertarPasajero(new Pasajero("Johanna Gutierrez", "P6666666", "Francesa"));
@@ -91,7 +91,7 @@ public class Principal {
                         System.out.println("El aeropuerto no existe");
                     }
                     else{
-                        mostrarCompañias(aero);
+                        mostrarCompanias(aero);
                     }
                     break;
                 case 4:
@@ -180,7 +180,7 @@ public class Principal {
         return aero;
     }
 
-    public static void mostrarCompañias(Aeropuerto aeropuerto){
+    public static void mostrarCompanias(Aeropuerto aeropuerto){
         System.out.println("\nLas compañías del aeropuerto "+aeropuerto.getNombre()+" son:");
         for (int i = 0; i < aeropuerto.getNumCompañia(); i++) {
             System.out.print(aeropuerto.getCompañia(i).getNombre() + " ");

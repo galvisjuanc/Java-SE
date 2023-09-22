@@ -4,7 +4,7 @@ public class Aeropuerto {
     private String nombre;
     private String ciudad;
     private String pais;
-    private Compañia listaCompañias[] = new Compañia[10];
+    private Compañia[] listaCompañias = new Compañia[10];
     private int numCompañia;
 
     public Aeropuerto(String nombre, String ciudad, String pais) {
@@ -37,10 +37,6 @@ public class Aeropuerto {
 
     public String getPais() {
         return pais;
-    }
-
-    public Compañia[] getListaCompañias() {
-        return listaCompañias;
     }
 
     public int getNumCompañia() {
