@@ -7,6 +7,8 @@ public class Principal {
     static final int num = 4;           // # aeropuertos
     static Aeropuerto[] aeropuertos = new Aeropuerto[num];
 
+    private static final String avianca = "Avianca";
+
     public static void main(String[] args) {
         //insertar datos de aeropuertos
         insertarDatosAeropuertos(aeropuertos);
@@ -16,19 +18,19 @@ public class Principal {
     public static void insertarDatosAeropuertos(Aeropuerto[] aero){
         aero[0] = new AeropuertoPublico(80000000, "Jorge Chavez", "Lima", "Perú");
         aero[0].insertarCompañia(new Compañia("AeroPerú"));
-        aero[0].insertarCompañia(new Compañia("Avianca"));
+        aero[0].insertarCompañia(new Compañia(avianca));
         aero[0].getCompañia("AeroPerú").insertarVuelo(new Vuelo("IB20", "Lima", "México", 150.90, 150));
         aero[0].getCompañia("AeroPerú").insertarVuelo(new Vuelo("IB21", "Lima", "Buenos Aires", 180.90, 120));
-        aero[0].getCompañia("Avianca").insertarVuelo(new Vuelo("FC12", "Ayacucho", "Londres", 500.90, 200));
-        aero[0].getCompañia("Avianca").insertarVuelo(new Vuelo("FC13", "Ayacucho", "Santiago de Chile", 200.50, 180));
+        aero[0].getCompañia(avianca).insertarVuelo(new Vuelo("FC12", "Ayacucho", "Londres", 500.90, 200));
+        aero[0].getCompañia(avianca).insertarVuelo(new Vuelo("FC13", "Ayacucho", "Santiago de Chile", 200.50, 180));
         aero[0].getCompañia("AeroPerú").getVuelo("IB20").insertarPasajero(new Pasajero("María José Galvis Cuéllar", "P1026149", "Coreana"));
         aero[0].getCompañia("AeroPerú").getVuelo("IB20").insertarPasajero(new Pasajero("María Fernanda Galvis Cuéllar", "P1040148", "Colombiana"));
-        aero[0].getCompañia("Avianca").getVuelo("FC12").insertarPasajero(new Pasajero("Huberty Galvis", "P79349", "Colombiana"));
-        aero[0].getCompañia("Avianca").getVuelo("FC12").insertarPasajero(new Pasajero("María del Carmen Cuéllar", "P51693", "Argentina"));
+        aero[0].getCompañia(avianca).getVuelo("FC12").insertarPasajero(new Pasajero("Huberty Galvis", "P79349", "Colombiana"));
+        aero[0].getCompañia(avianca).getVuelo("FC12").insertarPasajero(new Pasajero("María del Carmen Cuéllar", "P51693", "Argentina"));
         aero[0].getCompañia("AeroPerú").getVuelo("IB21").insertarPasajero(new Pasajero("Douglas Rodriguez Cuéllar", "P10101033", "Sudafricano"));
         aero[0].getCompañia("AeroPerú").getVuelo("IB21").insertarPasajero(new Pasajero("Dicken Barrera Cuéllar", "P666666", "Indonés"));
-        aero[0].getCompañia("Avianca").getVuelo("FC13").insertarPasajero(new Pasajero("Wilson Palacios", "P234123", "Brasilero"));
-        aero[0].getCompañia("Avianca").getVuelo("FC13").insertarPasajero(new Pasajero("Danna Coral", "P1234493", "Venezolana"));
+        aero[0].getCompañia(avianca).getVuelo("FC13").insertarPasajero(new Pasajero("Wilson Palacios", "P234123", "Brasilero"));
+        aero[0].getCompañia(avianca).getVuelo("FC13").insertarPasajero(new Pasajero("Danna Coral", "P1234493", "Venezolana"));
 
         aero[1] = new AeropuertoPrivado("Central Ciudad Real","Ciudad Real", "España");
         aero[1].insertarCompañia(new Compañia("AirEuropa"));
@@ -42,8 +44,8 @@ public class Principal {
         aero[2].insertarCompañia(new Compañia("Satena"));
         aero[2].getCompañia("Satena").insertarVuelo(new Vuelo("AB44", "Bogotá", "Rio de Janeiro", 300.55, 210));
         aero[2].getCompañia("Satena").insertarVuelo(new Vuelo("AB45", "Bogotá", "Rio de Janeiro", 430.10, 144));
-        aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Mileidy Martin", "T4312432", "Española"));
-        aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Catalina Rojas", "T142346", "Alemana"));
+        aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Natalie Cossette", "T4312432", "Española"));
+        aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Lucille Talkie", "T142346", "Alemana"));
 
         aero[3] = new AeropuertoPublico(50000000, "Mexicolibre", "México", "México");
         aero[3].insertarCompañia(new Compañia("AeroMéxico"));
