@@ -2,7 +2,7 @@ package POO.Aeropuerto.Objects;
 
 public class Compañia {
     private String nombre;
-    private Vuelo listaVuelos[] = new Vuelo[10];
+    private Vuelo[] listaVuelos = new Vuelo[10];
     private int numVuelo = 0;
 
     public Compañia(String nombre) {
