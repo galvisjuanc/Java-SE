@@ -6,8 +6,9 @@ public class Principal {
     static Scanner entrada = new Scanner(System.in);
     static final int num = 4;           // # aeropuertos
     static Aeropuerto[] aeropuertos = new Aeropuerto[num];
-
     private static final String avianca = "Avianca";
+    private static final String aeroMexico = "AeroMéxico";
+
 
     public static void main(String[] args) {
         //insertar datos de aeropuertos
@@ -48,11 +49,11 @@ public class Principal {
         aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Lucille Talkie", "T142346", "Alemana"));
 
         aero[3] = new AeropuertoPublico(50000000, "Mexicolibre", "México", "México");
-        aero[3].insertarCompañia(new Compañia("AeroMéxico"));
-        aero[3].getCompañia("AeroMéxico").insertarVuelo(new Vuelo("CD55", "Mexico", "Japon", 670, 300));
-        aero[3].getCompañia("AeroMéxico").insertarVuelo(new Vuelo("CD56", "Mexico", "Seoul", 990, 350));
-        aero[3].getCompañia("AeroMéxico").getVuelo("CD55").insertarPasajero(new Pasajero("Joel Vargas", "T1234", "Bélga"));
-        aero[3].getCompañia("AeroMéxico").getVuelo("CD56").insertarPasajero(new Pasajero("Jackie Linares", "T98765", "Chino"));
+        aero[3].insertarCompañia(new Compañia(aeroMexico));
+        aero[3].getCompañia(aeroMexico).insertarVuelo(new Vuelo("CD55", "Mexico", "Japon", 670, 300));
+        aero[3].getCompañia(aeroMexico).insertarVuelo(new Vuelo("CD56", "Mexico", "Seoul", 990, 350));
+        aero[3].getCompañia(aeroMexico).getVuelo("CD55").insertarPasajero(new Pasajero("Joel Vargas", "T1234", "Bélga"));
+        aero[3].getCompañia(aeroMexico).getVuelo("CD56").insertarPasajero(new Pasajero("Jackie Linares", "T98765", "Chino"));
     }
 
     public static void menu(){
