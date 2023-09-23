@@ -8,6 +8,7 @@ public class Principal {
     static Aeropuerto[] aeropuertos = new Aeropuerto[num];
     private static final String avianca = "Avianca";
     private static final String aeroMexico = "AeroMéxico";
+    private static final String satena = "Satena";
 
 
     public static void main(String[] args) {
@@ -42,11 +43,11 @@ public class Principal {
 
         aero[2] = new AeropuertoPublico(20000000, "El Dorado", "Bogotá", "Colombia");
         aero[2].insertarCompañia(new Compañia("VivaColombia"));
-        aero[2].insertarCompañia(new Compañia("Satena"));
-        aero[2].getCompañia("Satena").insertarVuelo(new Vuelo("AB44", "Bogotá", "Rio de Janeiro", 300.55, 210));
-        aero[2].getCompañia("Satena").insertarVuelo(new Vuelo("AB45", "Bogotá", "Rio de Janeiro", 430.10, 144));
-        aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Natalie Cossette", "T4312432", "Española"));
-        aero[2].getCompañia("Satena").getVuelo("AB45").insertarPasajero(new Pasajero("Lucille Talkie", "T142346", "Alemana"));
+        aero[2].insertarCompañia(new Compañia(satena));
+        aero[2].getCompañia(satena).insertarVuelo(new Vuelo("AB44", "Bogotá", "Rio de Janeiro", 300.55, 210));
+        aero[2].getCompañia(satena).insertarVuelo(new Vuelo("AB45", "Bogotá", "Rio de Janeiro", 430.10, 144));
+        aero[2].getCompañia(satena).getVuelo("AB45").insertarPasajero(new Pasajero("Natalie Cossette", "T4312432", "Española"));
+        aero[2].getCompañia(satena).getVuelo("AB45").insertarPasajero(new Pasajero("Lucille Talkie", "T142346", "Alemana"));
 
         aero[3] = new AeropuertoPublico(50000000, "Mexicolibre", "México", "México");
         aero[3].insertarCompañia(new Compañia(aeroMexico));
