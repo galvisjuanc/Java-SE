@@ -14,7 +14,7 @@ public class AeropuertoPrivado extends Aeropuerto{
         numEmpresa = e.length;
     }
 
-    public void insertarEmpresas(String e[]){
+    public void insertarEmpresas(String[] e){
         this.listaEmpresas = e;
         this.numEmpresa = e.length;
     }
