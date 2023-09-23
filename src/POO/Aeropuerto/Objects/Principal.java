@@ -13,7 +13,7 @@ public class Principal {
         menu();
     }
 
-    public static void insertarDatosAeropuertos(Aeropuerto aero[]){
+    public static void insertarDatosAeropuertos(Aeropuerto[] aero){
         aero[0] = new AeropuertoPublico(80000000, "Jorge Chavez", "Lima", "Perú");
         aero[0].insertarCompañia(new Compañia("AeroPerú"));
         aero[0].insertarCompañia(new Compañia("Avianca"));
