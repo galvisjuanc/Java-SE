@@ -233,8 +233,6 @@ Z
 *src/POO/Clases/ClasesObjetos8/Persona.java,5\d\5d96f70f52063daa8fbbc562f7e92059422e5fbd
 [
 +src/POO/Clases/ClasesObjetos9/Estatico.java,0\e\0e48c8cd387b6ee3a1c6c0760b85139d89c6f0d4
-@
-src/POO/Info.txt,e\c\ec5384341fbb8d68fb231c3cffcf9b61022f3f76
 U
 %src/POO/Ejercicios/Ej3/Enunciado3.txt,b\2\b2c5edfce46421760a67a0de97ad2ceefe127942
 T
@@ -315,3 +313,17 @@ U
 %src/POO/Aeropuerto/Docs/Compañia.txt,9\1\916063cd77172ab1ae6758e43d91b31d981d7985
 T
 $src/POO/Aeropuerto/Docs/Pasajero.txt,3\c\3c46db6f84e5486559c50b08f66986ad39d23e1b
+a
+1src/POO/Aeropuerto/Objects/AeropuertoPrivado.java,7\3\73009a4be83246576f08150c377ce24732dfa20b
+X
+(src/POO/Aeropuerto/Objects/Pasajero.java,2\8\28f3ec66b4cfdee7c2e167c19f417febd7963f20
+a
+1src/POO/Aeropuerto/Objects/AeropuertoPublico.java,c\b\cb86cd09c650e8efbecaea2ee1cc0dc3cf6be7f2
+U
+%src/POO/Aeropuerto/Objects/Vuelo.java,a\5\a5346b4d5c065dd7fc44cf7e2c36ea0e5c23f54a
+Z
+*src/POO/Aeropuerto/Objects/Aeropuerto.java,a\e\ae18227e05106ba297367f864dbe59b027bfd25e
+Y
+)src/POO/Aeropuerto/Objects/Compañia.java,9\a\9a25fef552674cc2026cbe7dfd19590129a18209
+Y
+)src/POO/Aeropuerto/Objects/Principal.java,0\5\05d44155eeaaef069a0a12b3bae2a41ea05964a4
