@@ -1,8 +1,9 @@
 ¿Qué son las excepciones?
 
-Cuando un programa en Jva viola las restricciones semánticas del lenguaje (se produce un error), la máquina virtual Java comunica este hecho al programa
-mediante una excepción. Muchas clases de errores pueden provocar una excepción, desde un desbordamiento de memoria o un disco duro estropeado, un intento de
-dividir por cero o intentar acceder a un vector fuera de sus límites. Cuando esto ocurre, la máquina virtual Java crea un objeto de la clase exception.
+Cuando un programa en Jva viola las restricciones semánticas del lenguaje (se produce un error),
+la máquina virtual Java comunica este hecho al programa mediante una excepción. Muchas clases de errores pueden provocar
+una excepción, desde un desbordamiento de memoria o un disco duro estropeado, un intento de dividir por cero o intentar
+acceder a un vector fuera de sus límites. Cuando esto ocurre, la máquina virtual Java crea un objeto de la clase exception.
 
 Jerarquía de Excepciones
 
@@ -14,8 +15,9 @@ Jerarquía de Excepciones
 2.1.1 IOException (Excepciones Verificadas)
 2.1.2 RunTimeException (Excepciones No Verificadas)
 
-IOException no depende directamente del programador pero se puede arreglar. Por ejemplo, se crea un programa para leer un archivo de texto. Pero si en algún
-momento, el archivo se mueve, el exception saltará. Java no te obliga a arreglar este error, pero si a evadirlo.
+IOException no depende directamente del programador pero se puede arreglar. Por ejemplo, se crea un programa para leer
+un archivo de texto. Pero si en algún momento, el archivo se mueve, el exception saltará. Java no te obliga a arreglar
+este error, pero si a evadirlo.
 
-RunTimeException si depende del programador. Como dividir un número por cero, guardar valores String en una variable Int. Pero aquí Java si te obliga a arreglar
-el error porque depende del programador.
+RunTimeException si depende del programador. Como dividir un número por cero, guardar valores String en una variable Int.
+Pero aquí Java si te obliga a arreglar el error porque depende del programador.
