@@ -21,3 +21,5 @@ este error, pero si a evadirlo.
 
 RunTimeException si depende del programador. Como dividir un número por cero, guardar valores String en una variable Int.
 Pero aquí Java si te obliga a arreglar el error porque depende del programador.
+
+Se pueden crear excepciones personalizadas también, heredando de Excepciones Padres.
