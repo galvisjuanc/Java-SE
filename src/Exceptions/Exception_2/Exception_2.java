@@ -27,6 +27,6 @@ public class Exception_2 {
         num2 = 0;
         resultado = num1 / num2;
 
-        System.out.println("El resultado es: "+resultado);
+        System.out.println("El resultado de la operación es: "+resultado);
     }
 }

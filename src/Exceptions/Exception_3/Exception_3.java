@@ -1,6 +1,10 @@
 package Exceptions.Exception_3;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.FileNotFoundException;
 
 public class Exception_3 {
     public void leerArchivo() throws FileNotFoundException, IOException {
