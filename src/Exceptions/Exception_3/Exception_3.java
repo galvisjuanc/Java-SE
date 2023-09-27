@@ -26,7 +26,7 @@ public class Exception_3 {
         } catch (IOException er){
             System.out.println("Error General --> "+er);
         }
-        System.out.println("\nPrograma terminado");
+        System.out.println("\nPrograma finalizado y-o terminado");
     }
 
     public static void main(String[] args) throws IOException {
