@@ -23,4 +23,4 @@ RunTimeException si depende del programador. Como dividir un número por cero, g
 Pero aquí Java si te obliga a arreglar el error porque depende del programador.
 
 Se pueden crear excepciones personalizadas también, heredando de Excepciones Padres.
-El uso de Try Catch es acertado para manejar los errores.
+El uso de Try Catch es acertado para manejar los errores. También arrojando un throw new error.
