@@ -7,7 +7,7 @@ public class Exception_1 {
         /*
         int num1, num2, resultado;
         num1 = 5;
-        num2 = 0;
+        num2 = 1;
         resultado = num1 / num2;
 
         System.out.println("El resultado es: "+resultado);
