@@ -11,12 +11,14 @@ public class Exception_2 {
         // Excepciones Verificadas. Si no coloco el IOException, Java no me permite ejecutar el programa porque el sabe que
         // puede saltar un error. Así que por eso obliga a que se arroje una posible excepción
         // Lectura de un archivo de texto (.txt)
+
 /*        BufferedReader bf = new BufferedReader(new FileReader("C:\\Users\\galvi\\Documents\\Excepciones\\TextoPrueba.txt"));
         String linea;
         while ((linea = bf.readLine()) != null){
             System.out.println(linea);
         }*/
-        // Si el archivo se mueve, entonces saltará un IOException
+
+        // Si el archivo se mueve, entonces saltará un IOException. El ejemplo anterior es una Excepción verificada.
 
         // Excepciones no Verificadas. División entre cero. Como el error ArithmeticException proviene de RunTimeException,
         // java no muestra que hay un error al momento de compilar pero si en la operación. Por eso debo arreglarlo.
