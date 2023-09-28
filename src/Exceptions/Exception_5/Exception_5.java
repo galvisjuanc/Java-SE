@@ -16,7 +16,8 @@ public class Exception_5 {
         try{
             operaciones();
         } catch (ArithmeticException a){
-            JOptionPane.showMessageDialog(null, "Ha intentado dividir un número entero por cero. Eso es un error");
+            JOptionPane.showMessageDialog(null, "Ha intentado dividir un número entero por cero. " +
+                    "Eso es un error");
         }
         System.out.println("\nPrograma Terminado");
     }
