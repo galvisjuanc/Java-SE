@@ -28,9 +28,9 @@ public class Exception_6 {
         try {
             ex6.introducirNumeros();
         } catch (CeroException e) {
-            System.out.println("Ha introducido el cero. Error fatal! ---> " + e);
+            System.out.println("Ha introducido el cero. Error garrafal y fatal! ---> " + e);
         }
 
-        System.out.println("Programa terminado.");
+        System.out.println("Programa terminado :).");
     }
 }
