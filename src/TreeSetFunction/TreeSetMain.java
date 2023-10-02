@@ -1,5 +1,6 @@
 package TreeSetFunction;
 
+import java.util.NavigableSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -19,5 +20,39 @@ public class TreeSetMain {
         // Elements get stored in default natural
         // Sorting Order(Ascending)
         System.out.println(ts1);
+
+        Set<String> ts2 = new TreeSet<>();
+
+        ts2.add("C");
+        ts2.add("G");
+        ts2.add("Z");
+        ts2.add("A");
+        ts2.add("F");
+        ts2.add("B");
+        ts2.add("Y");
+        ts2.add("J");
+
+        System.out.println(ts2);
+
+        NavigableSet<String> navigableSet = new TreeSet<>();
+
+        navigableSet.add("pienso");
+        navigableSet.add("luego");
+        navigableSet.add("existo");
+        navigableSet.add("descartes");
+
+        System.out.println("Tree Set is " + navigableSet);
+
+        String checkValidation = "existo";
+
+        System.out.println("Contains the word : < " + checkValidation + " > --> " + navigableSet.contains(checkValidation));
+        System.out.println("First value : " + navigableSet.first());
+        System.out.println("Last value : " + navigableSet.last());
+
+
+        String value = "luego";
+        System.out.println("Value greater than " + value + " is: " + navigableSet.higher(value));
+        System.out.println("Value lower than " + value + " is: " + navigableSet.lower(value));
+
     }
 }
