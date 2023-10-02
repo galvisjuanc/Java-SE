@@ -25,8 +25,6 @@ P
  src/DoWhileLoop/DoWhileLoop.java,b\2\b2d564375324e22a9f028f139e411a7d018cd02c
 F
 src/Arrays/Arrays.java,1\5\15af040b48619a8b7ed9825f5109959d8e3d08c7
-X
-(src/switchStatement/switchStatement.java,d\6\d6c436ea034f1c80557d0028794c93a4d4d9bf40
 L
 src/WhileLoop/WhileLoop.java,d\0\d05f5371d51ba4c94ba96b8c910f0f0f2ffdbb33
 L
@@ -327,3 +325,23 @@ a
 1src/POO/Aeropuerto/Objects/AeropuertoPrivado.java,7\3\73009a4be83246576f08150c377ce24732dfa20b
 Y
 )src/POO/Aeropuerto/Objects/Principal.java,0\5\05d44155eeaaef069a0a12b3bae2a41ea05964a4
+[
++src/Exceptions/Exception_3/Exception_3.java,a\7\a7868aa7fddf2726b4f2112d58ffda6156e85df4
+[
++src/Exceptions/Exception_4/Exception_4.java,f\c\fc73b7ce056df087cb9e28751c0a9c457cee3902
+[
++src/Exceptions/Exception_2/Exception_2.java,6\8\685dab97812be16ad4ae760e353a98741e663f29
+[
++src/Exceptions/Exception_5/Exception_5.java,9\4\945a3a66f11b14a9cf27d143c97cb8e258c1d3b7
+@
+src/POO/Info.txt,e\c\ec5384341fbb8d68fb231c3cffcf9b61022f3f76
+R
+"src/Exceptions/Texto de Prueba.txt,0\1\01d7a4a6878cb49baa419e7c049a3dc208573970
+Z
+*src/Exceptions/Concepto de Excepciones.txt,f\e\fe3b75b78e0f1990022ab99203e63dba1634371d
+[
++src/Exceptions/Exception_1/Exception_1.java,c\8\c81e47c79e7e2f3657d9b907e2d29dd2ff021d5c
+[
++src/Exceptions/Exception_6/Exception_6.java,c\3\c38b5673522417f8cface6cbeefc7cc499280ae4
+]
+-src/Exceptions/Exception_6/CeroException.java,6\3\63c95ddd753a2111a85831590e7af5ae22f9c870
