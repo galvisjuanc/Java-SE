@@ -36,10 +36,10 @@ public class TreeSetMain {
 
         NavigableSet<String> navigableSet = new TreeSet<>();
 
-        navigableSet.add("Pienso ");
-        navigableSet.add("luego ");
+        navigableSet.add("pienso");
+        navigableSet.add("luego");
         navigableSet.add("existo");
-        navigableSet.add("Descartes: ");
+        navigableSet.add("descartes");
 
         System.out.println("Tree Set is " + navigableSet);
 
@@ -48,5 +48,11 @@ public class TreeSetMain {
         System.out.println("Contains the word : < " + checkValidation + " > --> " + navigableSet.contains(checkValidation));
         System.out.println("First value : " + navigableSet.first());
         System.out.println("Last value : " + navigableSet.last());
+
+
+        String value = "luego";
+        System.out.println("Value greater than " + value + " is: " + navigableSet.higher(value));
+        System.out.println("Value lower than " + value + " is: " + navigableSet.lower(value));
+
     }
 }
