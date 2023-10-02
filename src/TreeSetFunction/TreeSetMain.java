@@ -43,5 +43,10 @@ public class TreeSetMain {
 
         System.out.println("Tree Set is " + navigableSet);
 
+        String checkValidation = "existo";
+
+        System.out.println("Contains the word : < " + checkValidation + " > --> " + navigableSet.contains(checkValidation));
+        System.out.println("First value : " + navigableSet.first());
+        System.out.println("Last value : " + navigableSet.last());
     }
 }
