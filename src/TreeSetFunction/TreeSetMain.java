@@ -54,5 +54,27 @@ public class TreeSetMain {
         System.out.println("Value greater than " + value + " is: " + navigableSet.higher(value));
         System.out.println("Value lower than " + value + " is: " + navigableSet.lower(value));
 
+        navigableSet.add("Helloween");
+        navigableSet.add("Motorhead");
+        navigableSet.add("Green Day");
+        navigableSet.add("Goo Goo Dolls");
+        navigableSet.add("Metallica");
+        navigableSet.add("oasis");
+        navigableSet.add("zz top");
+
+        System.out.println("Initial TreeSet " + navigableSet);
+
+        navigableSet.remove("Green Day");
+
+        System.out.println("After removing element: " + navigableSet);
+
+        navigableSet.pollFirst();
+
+        System.out.println("After removing first: " + navigableSet);
+
+        navigableSet.pollLast();
+
+        System.out.println("After removing last: " + navigableSet);
+
     }
 }
