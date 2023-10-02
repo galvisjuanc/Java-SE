@@ -41,7 +41,7 @@ public class TreeSetMain {
         navigableSet.add("existo");
         navigableSet.add("descartes");
 
-        System.out.println("Tree Set is " + navigableSet);
+        System.out.println("Tree Set is --> " + navigableSet);
 
         String checkValidation = "existo";
 
