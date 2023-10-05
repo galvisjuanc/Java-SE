@@ -18,9 +18,11 @@ utility methods for the collection object.
 Three Main Advantages:
 1. Reduces the programming effort as the programmer does not have to worry about designing the Collection class and on
 the same hand java being object-oriented language advances in achieving abstraction by not writing the Collection class.
+
 2. Increases program speed and quality as the programmer now is not worried about thinking best implementation for a
 specific data structure as of now for a programmer scope widens up and at the same time is now only worried about the
 best implementation that can drastically boost the performance of program irrespective of data structure constraints
 encountered earlier.
+
 3. The API that implements these interfaces are now having common sets of methods be it of any interfaces such as
 Collection, Set, List, and Map.
