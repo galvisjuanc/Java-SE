@@ -1,4 +1,4 @@
-package TreeSetFunction;
+package Collections.Set.TreeSet;
 
 import java.util.Iterator;
 import java.util.NavigableSet;

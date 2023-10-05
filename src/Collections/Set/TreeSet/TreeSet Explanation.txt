@@ -1,0 +1,6 @@
+TreeSet is one of the most important implementations of the SortedSet interface in Java that uses a Tree for storage.
+The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator
+is provided. This must be consistent with equals if it is to correctly implement the Set interface.
+
+It can also be ordered by a Comparator provided at set creation time, depending on which constructor is used.
+The TreeSet implements a NavigableSet interface by inheriting AbstractSet class.
