@@ -1,5 +1,6 @@
 package TreeSetFunction;
 
+import java.util.Iterator;
 import java.util.NavigableSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -78,6 +79,43 @@ public class TreeSetMain {
 
         for (String valor : navigableSet) {
             System.out.println(valor + ", ");
+        }
+
+        Set<StringBuffer> treeSet = new TreeSet<>();
+
+        treeSet.add(new StringBuffer("A"));
+        treeSet.add(new StringBuffer("Z"));
+        treeSet.add(new StringBuffer("L"));
+        treeSet.add(new StringBuffer("B"));
+        treeSet.add(new StringBuffer("O"));
+        treeSet.add(new StringBuffer(1));
+
+        // Note: StringBuffer implements Comparable
+        // interface
+
+        // Printing the elements
+        System.out.println(treeSet);
+
+        // Creating an empty TreeSet
+        TreeSet<String> set = new TreeSet<String>();
+
+        // Use add() method to add elements into the Set
+        set.add("Welcome");
+        set.add("To");
+        set.add("Geeks");
+        set.add("4");
+        set.add("Geeks");
+
+        // Displaying the TreeSet
+        System.out.println("TreeSet: " + set);
+
+        // Creating an iterator
+        Iterator valorcito = set.iterator();
+
+        // Displaying the values after iterating through the set
+        System.out.println("The iterator values are: ");
+        while (valorcito.hasNext()) {
+            System.out.println(valorcito.next());
         }
     }
 }
