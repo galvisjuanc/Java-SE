@@ -79,5 +79,20 @@ public class TreeSetMain {
         for (String valor : navigableSet) {
             System.out.println(valor + ", ");
         }
+
+        Set<StringBuffer> treeSet = new TreeSet<>();
+
+        treeSet.add(new StringBuffer("A"));
+        treeSet.add(new StringBuffer("Z"));
+        treeSet.add(new StringBuffer("L"));
+        treeSet.add(new StringBuffer("B"));
+        treeSet.add(new StringBuffer("O"));
+        treeSet.add(new StringBuffer(1));
+
+        // Note: StringBuffer implements Comparable
+        // interface
+
+        // Printing the elements
+        System.out.println(treeSet);
     }
 }
