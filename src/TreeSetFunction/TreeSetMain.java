@@ -76,5 +76,8 @@ public class TreeSetMain {
 
         System.out.println("After removing last: " + navigableSet);
 
+        for (String valor : navigableSet) {
+            System.out.println(valor + ", ");
+        }
     }
 }
