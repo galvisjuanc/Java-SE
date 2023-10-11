@@ -1,0 +1,16 @@
+package Collections.Set.HashSet;
+
+import java.util.HashSet;
+
+public class HashSetMain {
+    public static void main(String[] args) {
+        HashSet<String> cars = new HashSet<String>();
+
+        cars.add("Volvo");
+        cars.add("BMW");
+        cars.add("Ford");
+        cars.add("BMW");
+        cars.add("Mazda");
+        System.out.println(cars);
+    }
+}
