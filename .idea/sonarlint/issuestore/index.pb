@@ -345,3 +345,5 @@ Z
 -src/Exceptions/Exception_6/CeroException.java,6\3\63c95ddd753a2111a85831590e7af5ae22f9c870
 [
 +src/Exceptions/Exception_6/Exception_6.java,c\3\c38b5673522417f8cface6cbeefc7cc499280ae4
+X
+(src/switchStatement/switchStatement.java,d\6\d6c436ea034f1c80557d0028794c93a4d4d9bf40
