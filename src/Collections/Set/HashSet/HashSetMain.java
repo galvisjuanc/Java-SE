@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class HashSetMain {
     public static void main(String[] args) {
-        HashSet<String> cars = new HashSet<String>();
+        HashSet<String> cars = new HashSet<>();
 
         cars.add("Volvo");
         cars.add("BMW");
@@ -15,7 +15,7 @@ public class HashSetMain {
 
 
         // Create a HashSet object called numbers
-        HashSet<Integer> numbers = new HashSet<Integer>();
+        HashSet<Integer> numbers = new HashSet<>();
 
         // Add values to the set
         numbers.add(4);
