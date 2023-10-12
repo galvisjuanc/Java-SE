@@ -83,8 +83,7 @@ public class HashSetMain {
         // Removing items from HashSet
         // using remove() method
         h.remove("Australia");
-        System.out.println("List after removing Australia:"
-                + h);
+        System.out.println("List after removing Australia:" + h);
 
         // Display message
         System.out.println("Iterating over list:");
@@ -95,8 +94,7 @@ public class HashSetMain {
         // Holds true till there is single element remaining
         while (i.hasNext())
 
-            // Iterating over elements
-            // using next() method
+            // Iterating over elements using next() method
             System.out.println(i.next());
 
     }
