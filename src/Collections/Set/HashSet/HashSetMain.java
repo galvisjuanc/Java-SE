@@ -80,8 +80,7 @@ public class HashSetMain {
         System.out.println("List contains India or not:"
                 + h.contains("India"));
 
-        // Removing items from HashSet
-        // using remove() method
+        // Removing items from HashSet using remove() method
         h.remove("Australia");
         System.out.println("List after removing Australia:" + h);
 
