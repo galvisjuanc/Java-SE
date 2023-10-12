@@ -63,5 +63,21 @@ public class HashSetMain {
         }
         System.out.println(set.size());
 
+        HashSet<String> h = new HashSet<String>();
+
+        // Adding elements into HashSet
+        // using add() method
+        h.add("India");
+        h.add("Australia");
+        h.add("South Africa");
+
+        // Adding duplicate elements
+        h.add("India");
+
+        // Displaying the HashSet
+        System.out.println(h);
+        System.out.println("List contains India or not:"
+                + h.contains("India"));
+
     }
 }
