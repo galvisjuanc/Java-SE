@@ -1,5 +1,6 @@
 package Collections.Set.HashSet;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class HashSetMain {
@@ -30,5 +31,37 @@ public class HashSetMain {
                 System.out.println(i + " was not found in the set.");
             }
         }
+
+        HashSet<ArrayList<Integer>> set = new HashSet<>();
+
+        // create ArrayList list1
+        ArrayList<Integer> list1 = new ArrayList<>();
+
+        // create ArrayList list2
+        ArrayList<Integer> list2 = new ArrayList<>();
+
+        // Add elements using add method
+        list1.add(1);
+        list1.add(2);
+        list1.add(5);
+        list1.add(4);
+        list1.add(8);
+        list1.add(-2);
+        list2.add(1);
+        list2.add(2);
+        list2.add(5);
+        list2.add(4);
+        list2.add(8);
+        list2.add(-2);
+        set.add(list1);
+        set.add(list2);
+
+        // print the set size to understand the
+        // internal storage of ArrayList in Set
+        for (ArrayList<Integer> listas:set) {
+            System.out.println(listas + " ");
+        }
+        System.out.println(set.size());
+
     }
 }
