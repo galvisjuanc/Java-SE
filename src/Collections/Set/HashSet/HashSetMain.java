@@ -77,7 +77,7 @@ public class HashSetMain {
 
         // Displaying the HashSet
         System.out.println(h);
-        System.out.println("List contains India or not:"
+        System.out.println("List contains India and/or not:"
                 + h.contains("India"));
 
         // Removing items from HashSet using remove() method
