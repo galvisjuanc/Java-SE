@@ -1,0 +1,5 @@
+The LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements.
+When the iteration order is needed to be maintained this class is used. When iterating through a HashSet the order
+is unpredictable, while a LinkedHashSet lets us iterate through the elements in the order in which they were inserted.
+When cycling through LinkedHashSet using an iterator, the elements will be returned in the order in which they were
+inserted.
