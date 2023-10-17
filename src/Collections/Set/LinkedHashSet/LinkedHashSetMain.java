@@ -15,7 +15,7 @@ public class LinkedHashSetMain {
         linkedset.add("C");
         linkedset.add("D");
 
-        // Note: This will not add new element
+        // Note: This will not add new element to the linkedset
         // as A already exists
         linkedset.add("A");
         linkedset.add("E");
