@@ -347,3 +347,15 @@ Z
 +src/Exceptions/Exception_6/Exception_6.java,c\3\c38b5673522417f8cface6cbeefc7cc499280ae4
 X
 (src/switchStatement/switchStatement.java,d\6\d6c436ea034f1c80557d0028794c93a4d4d9bf40
+\
+,src/Collections/Set/TreeSet/TreeSetMain.java,5\5\558b6cbcba39b341451dc8dca68f00792f5d2196
+\
+,src/Collections/Set/HashSet/HashSetMain.java,c\2\c2ebbb5926842c0b8c618a0ee09215627bb8c16d
+Z
+*src/Collections/Info about Collections.txt,5\7\574f6e2522001ffc7edad0e12adf393ea09728ef
+o
+?src/Collections/Set/LinkedHashSet/LinkedHashSet Explanation.txt,d\1\d16b211dc118e70ae32595d5e6bb3e847df51dff
+c
+3src/Collections/Set/TreeSet/TreeSet Explanation.txt,b\b\bb7904d1d465d1a4d91cd0c951a2fb768bf02906
+h
+8src/Collections/Set/LinkedHashSet/LinkedHashSetMain.java,b\7\b70db0e209923667e9ded4644667d2fa4704f298

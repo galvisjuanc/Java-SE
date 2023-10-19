@@ -12,5 +12,5 @@ A few important features of HashSet are mentioned below:
 3. As it implements the Set Interface, duplicate values are not allowed.
 4. Objects that you insert in HashSet are not guaranteed to be inserted in the same order.
 5. Objects are inserted based on their hash code.
-6. NULL elements are allowed in HashSet.
+6. Null elements are allowed in HashSet.
 7. HashSet also implements Serializable and Cloneable interfaces.
