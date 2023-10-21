@@ -1,3 +1,15 @@
 Enumerations or popularly known as enum serve the purpose of representing a group of named constants in a programming
 language. For example, the 4 suits in a deck of playing cards may be 4 enumerators named Club, Diamond, Heart, and Spade,
 belonging to an enumerated type named Suit.
+
+The EnumSet is one of the specialized implementations of the Set interface for use with the enumeration type.
+A few important features of EnumSet are as follows:
+
+1. It extends AbstractSet class and implements Set Interface in Java.
+2. EnumSet class is a member of the Java Collections Framework & is not synchronized.
+3. It’s a high-performance set implementation, much faster than HashSet.
+4. All of the elements in an EnumSet must come from a single enumeration type that is specified when the set is created
+either explicitly or implicitly.
+5. It does not allow null Objects and throws NullPointerException if we do so.
+6. It uses a fail-safe iterator, so it won’t throw ConcurrentModificationException if the collection is modified while
+iterating.
