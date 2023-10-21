@@ -13,8 +13,7 @@ public class EnumSetMain {
         EnumSet<Gfg> set4;
 
         // Adding elements
-        set1 = EnumSet.of(Gfg.QUIZ, Gfg.CONTRIBUTE,
-                Gfg.LEARN, Gfg.CODE);
+        set1 = EnumSet.of(Gfg.QUIZ, Gfg.CONTRIBUTE,Gfg.LEARN, Gfg.CODE);
         set2 = EnumSet.complementOf(set1);
         set3 = EnumSet.allOf(Gfg.class);
         set4 = EnumSet.range(Gfg.CODE, Gfg.CONTRIBUTE);
