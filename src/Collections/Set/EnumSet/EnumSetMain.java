@@ -2,7 +2,6 @@ package Collections.Set.EnumSet;
 
 import java.util.EnumSet;
 
-// Enum
 enum Gfg { CODE, LEARN, CONTRIBUTE, QUIZ, MCQ }
 
 public class EnumSetMain {
@@ -18,7 +17,6 @@ public class EnumSetMain {
         set3 = EnumSet.allOf(Gfg.class);
         set4 = EnumSet.range(Gfg.CODE, Gfg.CONTRIBUTE);
 
-        // Printing corresponding elements in Sets
         System.out.println("Set 1: " + set1);
         System.out.println("Set 2: " + set2);
         System.out.println("Set 3: " + set3);
