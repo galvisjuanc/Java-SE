@@ -3,7 +3,7 @@ package Collections.Set.EnumSet;
 import java.util.EnumSet;
 
 // Enum
-enum Gfg { CODE, LEARN, CONTRIBUTE, QUIZ, MCQ };
+enum Gfg { CODE, LEARN, CONTRIBUTE, QUIZ, MCQ }
 
 public class EnumSetMain {
     public static void main(String[] args) {
