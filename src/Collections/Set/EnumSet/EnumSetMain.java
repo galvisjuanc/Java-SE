@@ -7,7 +7,10 @@ enum Gfg { CODE, LEARN, CONTRIBUTE, QUIZ, MCQ }
 
 public class EnumSetMain {
     public static void main(String[] args) {
-        EnumSet<Gfg> set1, set2, set3, set4;
+        EnumSet<Gfg> set1;
+        EnumSet<Gfg> set2;
+        EnumSet<Gfg> set3;
+        EnumSet<Gfg> set4;
 
         // Adding elements
         set1 = EnumSet.of(Gfg.QUIZ, Gfg.CONTRIBUTE,
