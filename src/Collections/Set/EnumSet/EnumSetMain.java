@@ -40,5 +40,24 @@ public class EnumSetMain {
             System.out.print(iterate.next());
             System.out.print(", ");
         }
+
+        // Creating EnumSet using allOf()
+        EnumSet<Game> enumGames = EnumSet.allOf(Game.class);
+
+        // Printing the EnumSet
+        System.out.println("EnumSet: " + enumGames);
+
+        // Using remove()
+        boolean value1 = enumGames.remove(Game.CRICKET);
+
+        // Printing elements to the console
+        System.out.println("Is CRICKET removed? " + value1);
+
+        // Using removeAll() and storing the boolean result
+        boolean value2 = games.removeAll(enumGames);
+
+        // Printing elements to the console
+        System.out.println("Are all elements removed? "
+                + value2);
     }
 }
