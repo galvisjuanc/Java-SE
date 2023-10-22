@@ -57,7 +57,6 @@ public class EnumSetMain {
         boolean value2 = games.removeAll(enumGames);
 
         // Printing elements to the console
-        System.out.println("Are all elements removed? "
-                + value2);
+        System.out.println("Are all elements removed? " + value2);
     }
 }
