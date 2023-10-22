@@ -4,7 +4,7 @@ import java.util.EnumSet;
 import java.util.Iterator;
 
 enum Gfg { CODE, LEARN, CONTRIBUTE, QUIZ, MCQ }
-enum Game { CRICKET, HOCKEY, TENNIS }
+enum Game { CRICKET, HOCKEY, TENNIS, FOOTBALL }
 
 public class EnumSetMain {
     public static void main(String[] args) {
