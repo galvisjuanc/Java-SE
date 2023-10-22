@@ -13,6 +13,9 @@ public class SortedSetMain {
         ts.add("India");
         ts.add("Australia");
         ts.add("South Africa");
+        ts.add("Colombia");
+        ts.add("South Korea");
+        ts.add("France");
 
         // Adding the duplicate
         // element
