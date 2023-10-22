@@ -19,8 +19,8 @@ public class EnumSetMain {
         set3 = EnumSet.allOf(Gfg.class);
         set4 = EnumSet.range(Gfg.CODE, Gfg.CONTRIBUTE);
 
-        System.out.println("Set 1: " + set1);
-        System.out.println("Set 2: " + set2);
+        System.out.println("Set 1 --> " + set1);
+        System.out.println("Set 2 --> " + set2);
         System.out.println("Set 3: " + set3);
         System.out.println("Set 4: " + set4);
 
