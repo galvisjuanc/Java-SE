@@ -27,8 +27,7 @@ public class SortedSetMain {
         // Removing items from TreeSet
         // using remove()
         ts.remove("Australia");
-        System.out.println("Set after removing "
-                + "Australia:" + ts);
+        System.out.println("Set after removing Australia:" + ts);
 
         // Iterating over Tree set items
         System.out.println("Iterating over set:");
