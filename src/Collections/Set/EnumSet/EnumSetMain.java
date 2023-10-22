@@ -31,7 +31,7 @@ public class EnumSetMain {
         Iterator<Game> iterate = games.iterator();
 
         // Display message
-        System.out.print("EnumSet selected:: ");
+        System.out.print("EnumSet selected:: --> ");
 
         while (iterate.hasNext()) {
 
