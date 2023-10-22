@@ -1,0 +1,8 @@
+The SortedSet interface present in java.util package extends the Set interface present in the collection framework.
+It is an interface that implements the mathematical set. This interface contains the methods inherited from the Set
+interface and adds a feature that stores all the elements in this interface to be stored in a sorted manner.
+
+TreeSet IMPLEMENTS NavigableSet, NavigableSet extends SortedSet and SortedSet extends Set
+
+Declaration: The SortedSet interface is declared as:
+public interface SortedSet extends Set
