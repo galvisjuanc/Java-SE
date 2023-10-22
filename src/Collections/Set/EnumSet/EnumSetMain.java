@@ -21,8 +21,8 @@ public class EnumSetMain {
 
         System.out.println("Set 1 --> " + set1);
         System.out.println("Set 2 --> " + set2);
-        System.out.println("Set 3: " + set3);
-        System.out.println("Set 4: " + set4);
+        System.out.println("Set 3 --> " + set3);
+        System.out.println("Set 4 --> " + set4);
 
         // Creating an EnumSet using allOf()
         EnumSet<Game> games = EnumSet.allOf(Game.class);
