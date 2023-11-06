@@ -1,0 +1,24 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÆëÁ»8œÇÛÓ¦1
+h
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8«ÇÛÓ¦1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œÕÚáıÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¸çã«8ğÈÛÓ¦1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ó–‚·8ğÈÛÓ¦1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(õò´Ú8ğÈÛÓ¦1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªâñ´ûÿÿÿÿ8€ÉÛÓ¦1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ì µÁúÿÿÿÿ8‚ÉÛÓ¦1
+>	java:S131""Add a default case to this switch.(°€àâ8‚ÉÛÓ¦1
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(çêí8‚ÉÛÓ¦1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8‚ÉÛÓ¦1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(­Çìïùÿÿÿÿ8‚ÉÛÓ¦1
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(¼ ä8‚ÉÛÓ¦1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Ş¢Â–ÿÿÿÿÿ8‚ÉÛÓ¦1
+B
+java:S1659=" Declare "l2" on a separate line.(ã¹òûÿÿÿÿ8‚ÉÛÓ¦1
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(á’ÕÀ8‚ÉÛÓ¦1
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ç«½Şÿÿÿÿÿ8‚ÉÛÓ¦1
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(·¼¨Š8‚ÉÛÓ¦1
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(­ëÍşÿÿÿÿ8‚ÉÛÓ¦1
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8‡ÀæÓ¦1

@@ -1,0 +1,18 @@
+
+~
+java:S1192""\Define a constant instead of duplicating this literal "PosiciÃ³n nueva: (X,Y) -> (" 4 times.(‰Ô¿†ùÿÿÿÿ8Æ€ä¢¡1
+~
+java:S1192"\Define a constant instead of duplicating this literal "Posicion actual: (X,Y) -> (" 4 times.(êÔÉ²ÿÿÿÿÿ8Æ€ä¢¡1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( †Ü
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(êÔÉ²ÿÿÿÿÿ8ï€ä¢¡1
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(îÉèğ8ó€ä¢¡1
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(‰Ô¿†ùÿÿÿÿ8ô€ä¢¡1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(êÔÉ²ÿÿÿÿÿ8ö€ä¢¡1
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(©ÿ™š8ù€ä¢¡1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(‰Ô¿†ùÿÿÿÿ8ú€ä¢¡1
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(êÔÉ²ÿÿÿÿÿ8ı€ä¢¡1
+T	java:S1063"9Replace this use of System.out or System.err by a logger.(ôÜğe8€ä¢¡1
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(‰Ô¿†ùÿÿÿÿ8€ä¢¡1
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(êÔÉ²ÿÿÿÿÿ8€ä¢¡1
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(áá˜şıÿÿÿÿ8€ä¢¡1
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(‰Ô¿†ùÿÿÿÿ8€ä¢¡1

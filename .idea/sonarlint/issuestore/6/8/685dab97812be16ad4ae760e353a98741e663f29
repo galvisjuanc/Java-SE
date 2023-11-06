@@ -1,0 +1,21 @@
+
+n	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½èËùÿÿÿÿ8Š÷É¹­1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªë äüÿÿÿÿ8Š÷É¹­1
+W
+java:S3518":Make sure "num2" can't be zero before doing this division.(×íè8µ–Ê¹­1
+š
+java:S1130
+"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(À…ıóşÿÿÿÿ8¼­Ì¹­1
+
+java:S1130
+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(À…ıóşÿÿÿÿ8¼­Ì¹­1
+]
+java:S1659"ADeclare "num2" and all following declarations on a separate line.(±‘Ğ8Å–Ê¹­1
+]	java:S125"<This block of commented-out lines of code should be removed.(½²¤ üÿÿÿÿ8Å–Ê¹­1
+]	java:S125"<This block of commented-out lines of code should be removed.(½²¤ üÿÿÿÿ8Å–Ê¹­1
+]	java:S125"<This block of commented-out lines of code should be removed.(½²¤ üÿÿÿÿ8Å–Ê¹­1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§²ó¥8Å–Ê¹­1
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼­Ì¹­1
+Q
+java:S1128"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8¼­Ì¹­1

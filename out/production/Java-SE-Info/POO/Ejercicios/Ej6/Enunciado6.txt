@@ -1,0 +1,9 @@
+/** @author galvi
+ * Ejercicio 5: Diseñar un programa para trabajar con triángulos is´sceles. Para ello, defina los atributos necesarios
+ * que se requieren (base, altura o lado corto y lado largo), proporciona métodos de consulta, un método constructor e
+ * implemente métodos para calcular el perímetro y el área de un triángulo, además implementar un método que apartir de
+ * un arreglo de triángulos, devuelva el área del triángulo de mayor superficie.
+ *** Objeto --> Triángulo con método constructor
+ *** Atributos --> base, lado, de tipo double. Se encapsulan porque son privados.
+ *** Métodos: obtenerPerimetro(): double, obtenerArea(): double, mostrarDatos(): double
+ */

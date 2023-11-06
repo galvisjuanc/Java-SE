@@ -1,0 +1,8 @@
+/** @author galvi
+ * Ejercicio 2: Construir un programa que permita dirigir el movimiento de un objeto dentro de un tablero y actualice su
+ * posición dentro del mismo. Los movimientos posibles son ARRIBA, ABAJO, IZQUIERDA Y DERECHA. Tras cada movimiento, el
+ * programa mostrará la nueva dirección elegida y las coordenadas de situación del objeto dentro del tablero.
+ *** Objeto --> Tablero plano cartesiano. Se creará un solo constructor.
+ *** Atributos --> x ^ y, de tipo entero. Se necesitan Getters para obtener la nueva ubicación.
+ *** Métodos: moverArriba(int incremento): void; same for moverAbajo, moverDerecha, MoverIzquierda.
+ */

@@ -1,0 +1,11 @@
+/** @author galvi
+ * Ejercicio 6: Construir un programa para trabajar con dos números completos. Implementar el siguiente menú:
+ * 1. Sumar dos números complejos.
+ 2. Multiplicar dos números completos.
+ 3 Comparar (iguales o no).
+ 4. Multiplicar un número completo por un entero.
+ *** Objeto --> Número complejo (un solo constructor que tenga parte real y parte imaginaria).
+ *** Atributos --> real (double), imaginaria (double con nomenclatura).
+ *** Métodos: sumarComplejos(Complejo c), multiplicarComplejos(Complejo c), compararComplejos(boolean),
+ *** MultiplicarEnteroComplejo(Complejo c), getA(), getB()
+ */
