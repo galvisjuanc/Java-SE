@@ -1,0 +1,16 @@
+
+y
+java:S1488	"\Immediately return this expression instead of assigning it to the temporary variable "suma".(ìŞ½8ŸâÎÿ1
+
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resta".(ô¡Óıÿÿÿÿ8ŸâÎÿ1
+ˆ
+java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "multiplicacion".(×ÉÊºøÿÿÿÿ8 âÎÿ1
+‚
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "division".(»’õ²øÿÿÿÿ8 âÎÿ1
+c
+java:S2184"ACast one of the operands of this division operation to a "float".(»’õ²øÿÿÿÿ8¡âÎÿ1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãú¸ïùÿÿÿÿ
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(³°ßóúÿÿÿÿ8®âÎÿ1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ĞÓìÚıÿÿÿÿ8®âÎÿ1
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ÃÙ‰ûÿÿÿÿ8¯âÎÿ1
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Æ™–øûÿÿÿÿ8¯âÎÿ1

@@ -1,0 +1,20 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°ŠÅ
+N
+java:S1659	"1Declare "indiceTrianguloArea" on a separate line.(ó¢–Ş8 …ò’¢1
+D
+java:S1659
+""Declare "lado" on a separate line.(Îƒ­ìıÿÿÿÿ8 …ò’¢1
+L
+java:S1197"*Move the array designators [] to the type.(ª—¤×ıÿÿÿÿ8¡…ò’¢1
+U
+java:S1481	"8Remove this unused "indiceTrianguloArea" local variable.(ó¢–Ş8£…ò’¢1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¡Çïã8£…ò’¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¢‡¬ûÿÿÿÿ8¤…ò’¢1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¡€8¥…ò’¢1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥Ğ¥Ş8¥…ò’¢1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(êèØû8¦…ò’¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(öË×Üÿÿÿÿÿ8¦…ò’¢1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñÖ¸¬şÿÿÿÿ8§…ò’¢1
+L
+java:S1197"*Move the array designators [] to the type.(»“æƒûÿÿÿÿ8¨…ò’¢1

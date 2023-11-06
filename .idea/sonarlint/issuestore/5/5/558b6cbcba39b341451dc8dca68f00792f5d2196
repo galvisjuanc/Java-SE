@@ -1,0 +1,23 @@
+
+L
+java:S3740q"/Provide the parametrized type for this generic.(Ş¼©Â8±„ºí¯1
+{
+java:S2293d"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á’ö‰ùÿÿÿÿ8º¯­í¯1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÎÆÚ¾ûÿÿÿÿ8Şò í¯1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ü¶ùˆ8ùò í¯1
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(À‘¡üÿÿÿÿ8úò í¯1
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(àı°8üò í¯1
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(ïç÷®8ıò í¯1
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(àÍ›È8ıò í¯1
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(´õßÂıÿÿÿÿ8şò í¯1
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(•¾ıøÿÿÿÿ8ÿò í¯1
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(³¼¿÷ıÿÿÿÿ8ÿò í¯1
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(—²¿ı8ÿò í¯1
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(³æ¾¸ùÿÿÿÿ8ÿò í¯1
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(ˆÍşî8ÿò í¯1
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(†îûé8ÿò í¯1
+Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(ƒì‚²üÿÿÿÿ8ÿò í¯1
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(¦¨¹8™À¡í¯1
+U	java:S106n"9Replace this use of System.out or System.err by a logger.(õãÂ8á¯­í¯1
+U	java:S106t"9Replace this use of System.out or System.err by a logger.(ÙªÖ8á¯­í¯1
+Z	java:S106v"9Replace this use of System.out or System.err by a logger.(•ÆÍ»ıÿÿÿÿ8á¯­í¯1

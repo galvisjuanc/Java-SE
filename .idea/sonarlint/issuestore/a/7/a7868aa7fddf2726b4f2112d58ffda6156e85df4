@@ -1,0 +1,16 @@
+
+g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤ÙïÒüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«İ´ßÿÿÿÿÿ
+i
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(–ƒÌı8¥Œô¹­1
+•
+java:S1130
+"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ÍØ•¥8ãÌô¹­1
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(úÀù¤øÿÿÿÿ8Òúò¹­1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íåÓƒÿÿÿÿÿ8èÔ¹­1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¶ÖÏy8èÔ¹­1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ùñõ8èÔ¹­1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ˆó·ë8èÔ¹­1
+‰
+java:S1130 "lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8¶Ô×¹­1

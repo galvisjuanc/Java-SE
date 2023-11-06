@@ -1,0 +1,19 @@
+
+~
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "suma".(×ßÖÍüÿÿÿÿ8’­Ãƒ 1
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üÏÿ™ÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÌœªûÿÿÿÿ8ŒµÄƒ 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ì§ÇØşÿÿÿÿ8ŒµÄƒ 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ÑË´ıÿÿÿÿ8©àÉƒ 1
+W
+java:S2209"5Change this instance-reference to a static reference.(®ÑË´ıÿÿÿÿ8©àÉƒ 1
+W
+java:S2209"5Change this instance-reference to a static reference.(Ã½î•üÿÿÿÿ8©àÉƒ 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(°ªéÃ8©àÉƒ 1
+R
+java:S2209"5Change this instance-reference to a static reference.(°ªéÃ8©àÉƒ 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ëĞè´8©àÉƒ 1
+R
+java:S2209"5Change this instance-reference to a static reference.(ëĞè´8©àÉƒ 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÜÉ8©àÉƒ 1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(„©ìà8©àÉƒ 1

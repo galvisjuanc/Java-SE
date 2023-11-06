@@ -1,0 +1,8 @@
+/** @author galvi
+ * Ejercicio 3: Construir un programa que dada una serie de vehiculos caracterizados por su marca, modelo y precio, se
+ * imprima las propiedades del vehiculo más barato. Para ello, se deberán leer por teclado las características de cada
+ * vehículo y crear una clase que represente a cada uno de ellos.
+ *** Objeto --> Vehículo con un solo Constructor. Se puede crear un arreglo de objetos.
+ *** Atributos --> Marca, Modelo y Precio. Se encapsulan
+ *** Métodos: getPrecio(): float, mostrarDatos(String)
+ */
