@@ -1,4 +1,4 @@
-package POJOComun;
+package POJOComun.Mutable;
 
 import java.util.List;
 
